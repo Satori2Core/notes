@@ -25,6 +25,6 @@ git commit -m '自动部署'
 
 # 部署到GitHub Pages
 echo "正在推送到gh-pages分支..."
-git push -f git@github.com:Satori2Core/notes.git main:gh-pages
+git push -f git@github.com:Satori2Core/notes.git master:gh-pages
 
 echo "部署成功！访问 https://satori2core.github.io/notes/"
