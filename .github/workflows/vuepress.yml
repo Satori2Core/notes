@@ -19,7 +19,7 @@ jobs:
       - name: Install dependencies
         run: |
           npm config set registry https://registry.npmmirror.com
-          npm install vuepress@2.0.0-rc.23
+          npm install vuepress@1.9.10
           npm install
       - name: Build
         run: npx vuepress build docs
