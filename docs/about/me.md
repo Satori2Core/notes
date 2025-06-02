@@ -2,7 +2,6 @@
 title: 个人简介
 author: Satori2Core
 date: 2025-6-2
-lastUpdated: true
 ---
 
 
@@ -90,5 +89,5 @@ lastUpdated: true
 ❌ 无迭代的知识沉淀
 
 ---
-<VisitTime />
+
 
