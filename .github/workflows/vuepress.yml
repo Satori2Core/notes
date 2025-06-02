@@ -1,6 +1,10 @@
 name: VuePress CI
 
-on: [push]
+on:
+  push:
+    branches:
+      - main  # 仅监听main分支
+      - '!gh-pages'  # 排除gh-pages分支
 
 jobs:
   build:
@@ -22,5 +26,9 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: docs/.vuepress/dist
+            github_token: ${{ secrets.GITHUB_TOKEN }}
+            publish_dir: docs/.vuepress/dist
+            # # 关键修复：指定目标分支
+            # destination_branch: gh-pages
+            # # 清空目标分支内容
+            # force_orphan: true
