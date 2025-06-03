@@ -3,6 +3,7 @@ title: 欢迎来到我的知识库
 author: Satori2Core
 date: 2025-6-2
 lastUpdated: true
+home: true
 ---
 - [查看个人简历](/about/me)
 ---
