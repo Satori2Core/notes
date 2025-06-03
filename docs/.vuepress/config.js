@@ -17,7 +17,7 @@ module.exports = {
 			{
 				text: '关于',
 				items: [
-					{ text: '关于博主', link: '/about/me' },
+					{ text: '关于博主', link: 'notes/about/me' },
 					{ text: 'Github', link: 'https://github.com/Satori2Core' }
 				]
 			}
