@@ -18,6 +18,7 @@ module.exports = {
 		logo: '/head.png',
 		// 在所有页面中启用自动生成子侧边栏，原 sidebar 仍然兼容
 		subSidebar: 'auto',
+		lastUpdated: '上次更新',
 		nav: [
 			{ text: '首页', link: '/', icon: 'reco-home' },
 			{ text: 'TimeLine', link: '/timeline/', icon: 'reco-date' }

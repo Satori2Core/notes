@@ -8,3 +8,5 @@ tags:
  - Go
 publish: true
 ---
+
+<LastUpdated />
