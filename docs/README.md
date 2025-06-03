@@ -5,7 +5,7 @@ date: 2025-6-2
 lastUpdated: true
 home: true
 ---
-- [查看个人简历](/about/me)
+- [查看个人简历](/notes/about/me)
 ---
 # 学习理念
 
