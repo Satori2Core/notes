@@ -31,8 +31,9 @@ jobs:
         run: |
           git config --global user.name 'GitHub Actions'
           git config --global user.email 'actions@github.com'
-          # 确保所有文件在构建时都有有效时间戳
-          find . -type f -exec touch -d "`git log -1 --format=%aD" "{}" \;
+          # 修复命令：简化文件时间戳更新
+          last_commit_date=$(git log -1 --pretty=format:%cD)
+          find . -type f -exec touch -d "$last_commit_date" "{}" \;
       
       - name: Build VuePress site
         run: npx vuepress build docs
@@ -42,6 +43,6 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: docs/.vuepress/dist
-          # 启用下面的注释行（删除前面的#）以强制部署到新分支
+          # 取消下方两行的注释
           # destination_branch: gh-pages
           # force_orphan: true
