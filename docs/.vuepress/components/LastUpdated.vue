@@ -1,7 +1,7 @@
 <template>
   <div v-if="updateTime" class="last-updated">
     <span class="label">{{ label }}</span>
-    <time :datetime="isoTime">{{ formattedTime }}</time>
+    <time :datetime="localTime">{{ formattedTime }}</time>
   </div>
 </template>
 
@@ -11,6 +11,11 @@ export default {
     label: {
       type: String,
       default: '最后更新于'
+    },
+    // 可以传入时区偏移量（小时），默认是北京时区 UTC+8
+    timeZoneOffset: {
+      type: Number,
+      default: 8
     }
   },
   
@@ -19,44 +24,27 @@ export default {
       return this.$page.lastUpdated;
     },
     
-    formattedTime() {
-      if (!this.updateTime) return '';
+    // 计算本地时间（解决时区问题）
+    localTime() {
+      if (!this.updateTime) return null;
       
+      // 创建日期对象并应用时区偏移
       const date = new Date(this.updateTime);
-      const y = date.getFullYear();
-      const m = (date.getMonth() + 1).toString().padStart(2, '0');
-      const d = date.getDate().toString().padStart(2, '0');
-      const h = date.getHours().toString().padStart(2, '0');
-      const min = date.getMinutes().toString().padStart(2, '0');
-      
-      return `${y}/${m}/${d} ${h}:${min}`;
+      return new Date(date.getTime() + this.timeZoneOffset * 60 * 60 * 1000);
     },
     
-    isoTime() {
-      return this.updateTime ? new Date(this.updateTime).toISOString() : '';
+    // 格式化为本地时间
+    formattedTime() {
+      if (!this.localTime) return '';
+      
+      const y = this.localTime.getFullYear();
+      const m = (this.localTime.getMonth() + 1).toString().padStart(2, '0');
+      const d = this.localTime.getDate().toString().padStart(2, '0');
+      const h = this.localTime.getHours().toString().padStart(2, '0');
+      const min = this.localTime.getMinutes().toString().padStart(2, '0');
+      
+      return `${y}/${m}/${d} ${h}:${min}`;
     }
   }
 };
 </script>
-
-<style scoped>
-.last-updated {
-  margin-top: 1.8rem;
-  padding-top: 0.8rem;
-  border-top: 1px dashed #eaecef;
-  font-size: 0.85rem;
-  color: #666;
-  font-family: monospace;
-}
-
-.last-updated .label {
-  font-weight: 600;
-}
-
-@media (prefers-color-scheme: dark) {
-  .last-updated {
-    color: #a3a3a3;
-    border-top-color: #3a3a3a;
-  }
-}
-</style>

@@ -31,7 +31,7 @@ jobs:
         run: |
           git config --global user.name 'GitHub Actions'
           git config --global user.email 'actions@github.com'
-          # 修复命令：简化文件时间戳更新
+          # 修正后的命令
           last_commit_date=$(git log -1 --pretty=format:%cD)
           find . -type f -exec touch -d "$last_commit_date" "{}" \;
       
