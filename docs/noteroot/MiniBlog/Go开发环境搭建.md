@@ -1,5 +1,5 @@
 ---
-title: 开发环境搭建
+title: Go开发环境搭建
 date: '2025-6-7'
 sidebar: 'auto'
 categories:
