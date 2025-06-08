@@ -8,6 +8,7 @@ tags:
  - Go
  - 项目
  - 项目：MiniBlog
+ - 环境搭建
 publish: true
 sticky: 3
 lastUpdated: '2025/6/5 21:00:00'
@@ -20,6 +21,8 @@ lastUpdated: '2025/6/5 21:00:00'
 - 本文内容暂时不使用云服务器，使用`VMWare`+`Ubuntu22.04`，来作为开发环境。
 - 内容起始点为新搭建的`Ubuntu22.04`环境，关于`VMWare`+`Ubuntu22.04`可以参考其他内容（[基于VMware虚拟机的Ubuntu22.04系统安装和配置（新手保姆级教程）](https://blog.csdn.net/qq_42417071/article/details/136327674)）。
 
+
+> [前往系列文章合集](/notes/noteroot/MiniBlog/关于项目)
 ---
 
 ## 1. Linux 用户管理
