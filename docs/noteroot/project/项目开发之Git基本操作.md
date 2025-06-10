@@ -199,7 +199,17 @@ git status
 
 ```bash
 # 操作演示：start -----------------------------------------------------------------
+devuser@vm:~/workspace/GitLearnLab$ git status
+位于分支 master
 
+尚无提交
+
+未跟踪的文件:
+  （使用 "git add <文件>..." 以包含要提交的内容）
+        .gitignore
+
+提交为空，但是存在尚未跟踪的文件（使用 "git add" 建立跟踪）
+devuser@vm:~/workspace/GitLearnLab$ 
 # 示例：end -------------------------------------------------------------------
 ```
 
@@ -219,12 +229,60 @@ echo "# GitLearnLab 仓库介绍" > README.md
 
 ### 3.4 提交操作
 
-现在，我们有了项目文件和`.gitignore`，可以执行第一次提交了。遵循**“先配置**`.gitignore`，**再提交代码**”的顺序，能避免将冗余文件误提交到仓库。
+现在，我们有了项目文件和`.gitignore`，可以执行第一次提交了。遵循“**先配置**`.gitignore`，**再提交代码**”的顺序，能避免将冗余文件误提交到仓库。
 
 **【步骤1：添加有效文件到暂存区】**
 
+前文指定`Git`忽略追踪`.vscode`、`.idea/ `、`/tmp`的内容，同时新增了`README.md`作为有效提交文件。
+
+```bash
+# 添加所有未跟踪的有效文件（包括.gitignore）
+git add .  # 注意：. 表示当前目录所有未忽略的文件（.gitignore本身会被追踪）
+
+# git 命令
+# add 执行的操作
+```
+
 **【步骤2：提交到本地仓库】**
+
+```bash
+# 使用如下命令添加本次提交的信息说明。
+git commit -m "feat: 初始化项目，添加主程序及.gitignore配置"
+
+# git 命令
+# commit 执行的操作：提交信息
+```
 
 **【步骤3：查看提交记】**
 
+```bash
+# 应显示一条提交记录，包含`.gitignore`和`main.go`的修改
+git log  
+
+# git 命令
+# log 执行的操作：日志
+```
 ---
+
+**【操作演示】**
+```bash
+# 操作演示：start -----------------------------------------------------------------
+devuser@vm:~/workspace/GitLearnLab$ git add .
+devuser@vm:~/workspace/GitLearnLab$ git commit -m "feat: 初始化项目，添加主程序及.gitignore配置"
+作者身份未知
+
+*** 请告诉我您是谁。    ## 出现这个内容是由于我们安装git后没有进行任何配置，解决操作可看后文
+
+运行
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+来设置您账号的缺省身份标识。
+如果仅在本仓库设置身份标识，则省略 --global 参数。
+
+fatal: 无法自动探测邮件地址（得到 'devuser@vm.(none)'）
+devuser@vm:~/workspace/GitLearnLab$ 
+# 示例：end -------------------------------------------------------------------
+```
+
