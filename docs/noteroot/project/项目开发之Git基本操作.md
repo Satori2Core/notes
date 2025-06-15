@@ -3,11 +3,10 @@ title: 【项目开发】Git基本操作 —— 代码迭代管理
 date: '2025-6-7'
 sidebar: 'auto'
 categories:
- - Go语言项目
+ - Git
 tags:
- - Go
  - 项目
- - 项目：MiniBlog
+ - Git
  - 环境搭建
 publish: true
 sticky: 6
@@ -29,7 +28,7 @@ lastUpdated: '2025/6/9 21:00:00'
 
 > 文末有本文提及的`Git`操作及其意义表格供快速参考。
 
-> [前往系列文章合集](/notes/noteroot/MiniBlog/关于项目)
+> 我的随笔录：[Satori2Core 随笔录 —— 更新计划 / 笔录目录](https://satori2core.github.io/notes/noteroot/about/%E5%85%B3%E4%BA%8E%E6%9B%B4%E6%96%B0%E8%AE%A1%E5%88%92.html)
 ---
 
 ## 1. GitHub 仓库搭建
@@ -44,7 +43,7 @@ lastUpdated: '2025/6/9 21:00:00'
 ---
 **【第二步：选择创建分支】**
 
-![GitHub新建仓库](gitcreate.png)
+![GitHub新建仓库](./gitcreate.png)
 
 ---
 
@@ -124,7 +123,7 @@ dev@vm:~/workspace/GitLearnLab$
 
 ---
 
-【为什么需要.gitignore？】
+**【为什么需要.gitignore？】**
 
 - **​避免冗余**​：如`Go`项目的`go.sum`（依赖校验文件）、`vendor`目录（依赖缓存）、`IDE`生成的`.idea`/`.vscode`目录等，这些文件无需共享；
 - ​保护隐私​：如本地配置文件（.env）、日志文件（*.log）可能包含敏感信息；
@@ -166,7 +165,7 @@ Thumbs.db      # Windows系统生成的缩略图缓存
 
 ---
 
-## 3. 第一次提交与远程仓库关联
+## 3. 第一次代码提交
 
 ### 3.1 编写 .gitignore 文件
 
@@ -285,4 +284,252 @@ fatal: 无法自动探测邮件地址（得到 'devuser@vm.(none)'）
 devuser@vm:~/workspace/GitLearnLab$ 
 # 示例：end -------------------------------------------------------------------
 ```
+
+---
+
+
+## 4. Git 本地基本配置 (首次使用 Git 必做)
+
+> [【项目开发】Git基本操作 —— 本地基本配置指南](/notes/noteroot/project/项目开发之Git本地基本配置)
+
+---
+
+## 5. 关联GitHub远程仓库并推送
+
+### 5.1 仓库建立
+
+> 如文章开头
+
+---
+
+### 5.2 关联远程仓库：HTTP/HTTPS 与 SSH 差异
+
+远程仓库关联主要有两种主流方式：​`HTTP/HTTPS` 协议和 `​SSH` 协议。两者在底层通信机制、认证方式、适用场景上有明显差异，选择时需结合具体需求（如安全性、操作频率、环境限制等）。
+
+---
+**【`​HTTP、HTTPS`协议】**
+
+- ​通信加密：HTTPS 是加密的（TLS/SSL），HTTP 不加密（已逐渐被淘汰）
+- ​认证方式​：账号密码（或个人访问令牌 PAT）
+- ​适用场景​：临时访问、轻量级操作、无密钥管理需求
+- ​跨平台兼容性​：无需额外配置（浏览器/系统自带 HTTP 客户端）
+
+---
+
+**【`SSH`协议】**
+
+- ​通信加密：全程加密（基于 RSA/ECDSA 等算法）
+- ​认证方式​：密钥对（公钥存远程，私钥存本地）
+- ​适用场景​：频繁操作、自动化脚本、需要免密登录
+- ​跨平台兼容性​：需生成并配置 SSH 密钥（跨平台需注意密钥格式）
+
+---
+
+
+### 5.3 HTTP/HTTPS 方式：账号密码认证
+
+**原理**​：通过浏览器常用的 HTTP/HTTPS 协议与远程仓库（如 GitHub、GitLab）通信。首次关联或推送时，需输入账号密码（或个人访问令牌 PAT，GitHub 已禁用纯密码认证）完成身份验证。
+
+**配置操作**
+
+```bash
+# 1. 在 GitHub 仓库页面 → 点击 Code 按钮 → 选择 HTTPS 协议 → 复制仓库 URL（如 https://github.com/你的用户名/GitLearnLab.git）。
+
+# 2. 本地关联远程仓库
+git remote add origin https://github.com/你的用户名/GitLearnLab.git
+
+# 3. 推送代码（首次需认证）​
+git push -u origin master
+```
+
+此时会弹出对话框要求输入 GitHub 账号和密码（或 PAT）：
+
+- ​账号​：你的 GitHub 用户名；
+- ​密码​：若为 GitHub，需使用 个人访问令牌（PAT）（需勾选 repo 权限）。
+
+
+---
+
+### 5.4 SSH 方式：密钥对认证
+
+**原理**​:通过 SSH（Secure Shell）协议建立加密通道，使用非对称加密​（公钥 + 私钥）完成身份验证：
+
+- 公钥​：上传到远程仓库（如 GitHub 的 Settings → SSH and GPG keys）；
+- 私钥​：保存在本地电脑（需严格保密，泄露会导致仓库被非法访问）。
+
+当本地需要连接远程仓库时，SSH 客户端会用私钥生成签名，远程仓库用公钥验证签名合法性，从而完成免密认证。
+
+**配置操作**
+
+- 步骤1：生成 SSH 密钥对【在本地终端执行（一路回车使用默认值）：】
+```bash
+ssh-keygen -t ed25519 -C "你的邮箱@example.com"  # 推荐 ED25519 算法（更安全）
+# 若系统不支持 ED25519，可用 RSA：ssh-keygen -t rsa -b 4096 -C "你的邮箱@example.com"
+
+# 生成的密钥对默认存储在：
+# 公钥：~/.ssh/id_ed25519.pub（或 ~/.ssh/id_rsa.pub）；
+# 私钥：~/.ssh/id_ed25519（或 ~/.ssh/id_rsa）。
+```
+
+- 步骤2：将公钥添加到远程仓库
+> 参考：[【项目开发】Git基本操作 —— 本地基本配置指南](/notes/noteroot/project/项目开发之Git本地基本配置)
+
+- 步骤3：本地关联远程仓库（SSH 协议）​
+
+```bash
+git remote add origin git@github.com:你的用户名/GitLearnLab.git  # 注意 URL 格式是 git@...
+```
+
+- 步骤4：推送代码（首次需验证密钥）​
+
+```bash
+git push -u origin master
+```
+> 首次推送时，SSH 会提示确认远程仓库的指纹（如 The authenticity of host 'github.com (140.82.114.4)' can't be established...），输入 yes 确认后，后续操作将自动使用私钥认证，无需重复输入密码。
+
+
+### 5.5 如何选择？​
+
+根据需求选择即可：
+
+- ​选 HTTP/HTTPS​：临时操作、无 SSH 密钥管理权限（如公共电脑）、或远程仓库不支持 SSH（极少见）。
+- ​选 SSH​：长期维护项目、需要免密推送、或注重安全性（推荐开发者日常使用）。
+
+### 5.6 验证远程仓库关联方式
+
+```bash
+git remote -v
+
+# 若 URL 以 https://github.com/... 开头 → HTTP/HTTPS 协议
+# 若 URL 以 git@github.com:... 开头 → SSH 协议
+```
+
+---
+
+## 6. 第一次Git提交推送操作总揽
+
+**操作说明**
+
+- 环境准备​：创建并进入项目目录，初始化Git仓库
+- ​`.gitignore`配置​：创建忽略规则文件，避免提交冗余文件
+- ​用户配置​：设置全局用户名和邮箱（首次使用必须）
+- ​项目文件​：创建README.md作为项目说明文档
+- ​首次提交​：将文件添加到暂存区并提交到本地仓库
+- ​远程关联​：选择HTTP或SSH方式关联GitHub仓库
+- ​代码推送​：将本地提交推送到远程仓库
+- ​结果验证​：检查远程关联状态和提交历史
+
+```bash
+# --------------------------
+# 环境准备
+# --------------------------
+# 创建项目目录并进入
+mkdir -p ~/workspace/GitLearnLab && cd ~/workspace/GitLearnLab
+
+# 初始化Git仓库
+git init
+
+# --------------------------
+# 配置 .gitignore
+# --------------------------
+cat > .gitignore << EOF
+# 这里内容省略一下
+EOF
+
+# --------------------------
+# 配置用户身份（首次使用必须）
+# --------------------------
+git config --global user.name "你的GitHub用户名"
+git config --global user.email "你的GitHub注册邮箱"
+
+# --------------------------
+# 创建项目文件
+# --------------------------
+echo "# GitLearnLab 仓库介绍" > README.md
+
+# --------------------------
+# 第一次提交
+# --------------------------
+git add .
+git commit -m "feat: 初始化项目，添加主程序及.gitignore配置"
+# --------------------------
+# 示例
+# --------------------------
+devuser@vm:~/workspace/GitLearnLab$ git commit -m "feat: 初始化项目，添加主程序及.gitignore配置"
+[master （根提交） 09a29dc] feat: 初始化项目，添加主程序及.gitignore配置
+ 2 files changed, 4 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 README.md
+# --------------------------
+
+# --------------------------
+# 关联远程仓库（二选一）
+# --------------------------
+
+# 方式一：HTTP/HTTPS方式（需输入账号密码或PAT）
+# git remote add origin https://github.com/你的用户名/GitLearnLab.git
+
+# 方式二：SSH方式（推荐，需提前配置SSH密钥）
+git remote add origin git@github.com:你的用户名/GitLearnLab.git
+
+# --------------------------
+# 示例
+# --------------------------
+devuser@vm:~/workspace/GitLearnLab$ git commit -m "feat: 初始化项目，添加主程序及.gitignore配置"
+[master （根提交） 09a29dc] feat: 初始化项目，添加主程序及.gitignore配置
+ 2 files changed, 4 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 README.md
+# --------------------------
+
+# --------------------------
+# 推送代码到GitHub
+# --------------------------
+git push -u origin master
+
+# --------------------------
+# 验证操作结果
+# --------------------------
+# 查看远程仓库关联状态
+git remote -v
+
+# --------------------------
+# 示例
+# --------------------------
+devuser@vm:~/workspace/GitLearnLab$ git remote -v
+origin	git@github.com:Satori2Core/GitLearnLab.git (fetch)
+origin	git@github.com:Satori2Core/GitLearnLab.git (push)
+# --------------------------
+
+# 查看提交历史
+git log --oneline --graph --decorate
+
+# --------------------------
+# 示例
+# --------------------------
+devuser@vm:~/workspace/GitLearnLab$ git log --oneline --graph --decorate
+* 09a29dc (HEAD -> master, origin/master) feat: 初始化项目，添加主程序及.gitignore配置
+# --------------------------
+```
+
+**【成果展示】**
+![firstcommit](./firstcommit.png)
+
+---
+
+## 7. 总结：本文中基本Git操作指令及其意义
+
+| **Git 指令**                  | **功能描述**                                                                 | **常见参数/选项**                                                                 | **示例**                                                                 |
+|-------------------------------|-----------------------------------------------------------------------------|---------------------------------------------------------------------------------|-------------------------------------------------------------------------|
+| `git init`                    | 初始化本地 Git 仓库（生成 `.git` 隐藏目录）                                   | 无                                                                              | `git init`                                                              |
+| `git config --global user.name` | 设置全局用户名（用于提交记录的身份标识）                                      | `--global`：全局配置（作用于当前用户所有仓库）；省略则仅当前仓库生效              | `git config --global user.name "张三"`                                  |
+| `git config --global user.email` | 设置全局邮箱（与用户名绑定，用于提交记录的身份验证）                          | `--global`：全局配置                                                              | `git config --global user.email "zhangsan@example.com"`                 |
+| `touch .gitignore`            | 创建 `.gitignore` 忽略规则文件（用于指定不追踪的文件/目录）                    | 无                                                                              | `touch .gitignore`                                                      |
+| `git add <文件/目录>`         | 将文件/目录添加到暂存区（准备提交到本地仓库）                                 | `.`：添加当前目录所有未忽略的文件；`-A`：添加所有文件（包括删除操作）            | `git add .`（添加所有有效文件）                                         |
+| `git commit -m "提交信息"`     | 将暂存区内容提交到本地仓库（生成版本记录）                                    | `-m`：指定提交信息（必填）；`-a`：自动添加已追踪文件的修改（无需手动 `add`）     | `git commit -m "feat: 初始化项目配置"`                                   |
+| `git status`                  | 查看当前仓库状态（未跟踪文件、已修改文件、暂存区状态等）                       | 无                                                                              | `git status`（显示当前未提交的变化）                                    |
+| `git log`                     | 查看本地仓库的提交历史（包含提交哈希、作者、时间、提交信息）                   | `--oneline`：简化显示（单行/条）；`-n 5`：限制显示最近 5 条记录                 | `git log --oneline`（简洁查看提交记录）                                  |
+| `git remote add origin <URL>`  | 关联远程仓库（将本地仓库与 GitHub/GitLab 等远程仓库绑定）                      | `origin`：远程仓库别名（默认名称，可自定义）；`<URL>`：远程仓库地址（HTTP/SSH） | `git remote add origin https://github.com/用户名/GitLearnLab.git`       |
+| `git push -u origin 分支名`    | 将本地提交推送到远程仓库（`-u` 表示设置上游分支，后续可直接 `git push`）       | `origin`：远程仓库别名；`master`/`main`：分支名（默认主分支）                    | `git push -u origin master`（首次推送主分支到远程）                      |
+| `git remote -v`               | 查看当前关联的远程仓库信息（包括 URL 和别名）                                 | 无                                                                              | `git remote -v`（显示远程仓库地址及别名）                                |
 
