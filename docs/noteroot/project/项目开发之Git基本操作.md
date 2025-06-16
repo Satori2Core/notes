@@ -1,5 +1,5 @@
 ---
-title: 【项目开发】Git基本操作 —— 代码迭代管理
+title: 【项目开发】新手友好！Git基本操作全流程：从环境搭建到远程推送（第一次提交）
 date: '2025-6-7'
 sidebar: 'auto'
 categories:
