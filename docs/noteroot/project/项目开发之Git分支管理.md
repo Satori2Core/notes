@@ -318,3 +318,178 @@ test conflict B
 ![fixconflictresult](./fixconflictresult.png)
 
 ---
+
+
+## 4. 挑合（Cherry-pick）：选择特定提交合并
+
+### 4.1 挑合是什么？
+
+挑合（Cherry-pick）​​ 是 Git 中的一种**选择性合并**操作，它允许你将**某个分支上的特定提交（一个或多个）**​“摘取”出来，应用到当前分支上。与 merge（合并整个分支）或 rebase（转移整个分支）不同，​cherry-pick **精确选择需要的提交**，而非处理整个分支历史。
+
+**关键理解**：
+- **针对性**​：只复制选定的提交（通过 commit hash 指定）。
+- **独立性**​：在目标分支上**生成新的提交**​（内容与原提交相同，但 Hash 值不同）。
+- **场景驱动​**：适用于“仅需某个功能/修复，而非整个分支”的情况。
+
+---
+
+### 4.2 挑合的基本操作
+
+假设 test/cherry_pick_A 分支有三个提交：
+
+```bash
+C1（初始化登录接口） → C2（添加表单验证） → C3（修复登录超时问题）
+```
+
+现在需要将 C2（添加表单验证）合并到 test/cherry_pick_B 分支，可使用 cherry-pick：
+
+**【步骤1：找到目标提交的哈希值】**
+
+```bash
+git log --oneline  # 简洁模式显示提交哈希和信息
+```
+
+**【步骤2：切换到目标分支（master）并挑合】**
+
+```bash
+git checkout main          # 切换到 main 分支
+git cherry-pick abc1234    # 将提交 abc1234 合并到 main
+```
+
+---
+
+### 4.3 操作示例
+
+**cherry_pick_A 准备：提交准备**
+
+```bash
+# 示例：start -----------------------------------------------------------------
+➜  GitLearnLab git:(master) git branch
+  feature/login
+* master
+  test/conflict_A
+  test/conflict_B
+➜  GitLearnLab git:(master) git checkout -b test/cherry_pick_A   
+切换到一个新分支 'test/cherry_pick_A'
+➜  GitLearnLab git:(test/cherry_pick_A) vim test.md
+➜  GitLearnLab git:(test/cherry_pick_A) ✗ git add .
+➜  GitLearnLab git:(test/cherry_pick_A) ✗ git commit -m "初始化登录接口" # 第一次提交
+[test/cherry_pick_A f7d191d] 初始化登录接口
+ 1 file changed, 1 insertion(+)
+ create mode 100644 test.md
+➜  GitLearnLab git:(test/cherry_pick_A) vim test.md 
+➜  GitLearnLab git:(test/cherry_pick_A) ✗ git add .
+➜  GitLearnLab git:(test/cherry_pick_A) ✗ git commit -m "添加表单验证" # 第二次提交
+[test/cherry_pick_A 455995c] 添加表单验证
+ 1 file changed, 2 insertions(+)
+➜  GitLearnLab git:(test/cherry_pick_A) vim test.md                 
+➜  GitLearnLab git:(test/cherry_pick_A) ✗ git add .                   
+➜  GitLearnLab git:(test/cherry_pick_A) ✗ git commit -m "修复登录超时问题" # 第三次提交
+[test/cherry_pick_A d1a9dc6] 修复登录超时问题
+ 1 file changed, 2 insertions(+)
+➜  GitLearnLab git:(test/cherry_pick_A) git log --oneline
+d1a9dc6 (HEAD -> test/cherry_pick_A) 修复登录超时问题
+455995c 添加表单验证
+f7d191d 初始化登录接口
+6243251 (origin/master, origin/feature/login, master, feature/login) test: git merge
+09a29dc feat: 初始化项目，添加主程序及.gitignore配置
+# 示例：end -------------------------------------------------------------------
+```
+
+---
+
+**cherry_pick_B 挑合**
+
+- 指定挑合`cherry_pick_B`的第二次提交（455995c）：添加表单验证
+
+```bash
+# 示例：start -----------------------------------------------------------------
+➜  GitLearnLab git:(master) git checkout -b test/cherry_pick_B
+切换到一个新分支 'test/cherry_pick_B'
+➜  GitLearnLab git:(test/cherry_pick_B) ll  
+总计 8.0K
+-rw-r--r-- 1 devuser devuser 20  6月 16 22:27 merge.md
+-rw-rw-r-- 1 devuser devuser 27  6月 10 22:03 README.md
+➜  GitLearnLab git:(test/cherry_pick_B) git cherry-pick 455995c           
+冲突（修改/删除）：test.md 在 HEAD 中被删除，在 455995c (添加表单验证) 中被修改。test.md 的 455995c (添加表单验证) 版本在树中被保留。
+error: 不能应用 455995c... 添加表单验证
+提示：解决所有冲突之后，用 "git add/rm <路径规格>" 标记它们，
+提示：然后执行 "git cherry-pick --continue"。您也可以执行
+提示："git cherry-pick --skip" 命令跳过这个提交。如果想要终止执行并回到
+提示：执行 "git cherry-pick" 之前的状态，执行 "git cherry-pick --abort"。
+➜  GitLearnLab git:(test/cherry_pick_B) ✗ git checkout --theirs -- test.md
+➜  GitLearnLab git:(test/cherry_pick_B) ✗ git add test.md
+➜  GitLearnLab git:(test/cherry_pick_B) ✗ git cherry-pick --continue
+[test/cherry_pick_B be74b9a] 添加表单验证
+ Date: Fri Jun 20 21:56:14 2025 +0800
+ 1 file changed, 3 insertions(+)
+ create mode 100644 test.md
+➜  GitLearnLab git:(test/cherry_pick_B) git log --oneline
+be74b9a (HEAD -> test/cherry_pick_B) 添加表单验证
+6243251 (origin/master, origin/feature/login, master, feature/login) test: git merge
+09a29dc feat: 初始化项目，添加主程序及.gitignore配置
+➜  GitLearnLab git:(test/cherry_pick_B) 
+# 示例：end -------------------------------------------------------------------
+```
+
+---
+
+
+### 4.4 补充说明
+
+如 4.3 中，可以发现我在`cherry_pick_B`上执行操作时，有冲突报错！
+
+```bash
+➜  GitLearnLab git:(test/cherry_pick_B) git cherry-pick 455995c           
+冲突（修改/删除）：test.md 在 HEAD 中被删除，在 455995c (添加表单验证) 中被修改。test.md 的 455995c (添加表单验证) 版本在树中被保留。
+error: 不能应用 455995c... 添加表单验证
+提示：解决所有冲突之后，用 "git add/rm <路径规格>" 标记它们，
+提示：然后执行 "git cherry-pick --continue"。您也可以执行
+提示："git cherry-pick --skip" 命令跳过这个提交。如果想要终止执行并回到
+提示：执行 "git cherry-pick" 之前的状态，执行 "git cherry-pick --abort"。
+```
+
+---
+
+**【为什么会出现会冲突？】**
+
+在我的案例中：
+- 源分支​：test/cherry_pick_A
+- ​目标分支​：test/cherry_pick_B
+- ​操作​：将 455995c 的变更应用到 test/cherry_pick_B
+- ​结果​：在 test/cherry_pick_B 创建新提交，包含：
+  - 添加表单验证的代码
+  - 创建 test.md 文件
+
+技术实现上有个关键点：
+- 当 cherry-pick ​创建新文件的提交时
+- 如果目标分支不存在该文件​
+- Git 会视为"修改/删除"冲突（技术上：修改一个不存在的文件）
+
+注：两个分支都是基于`master`建立的，但是`test.md`文件是主分支没有的！所以在挑合时，把`cherry_pick_A`的上新建的`test.md`操作挑合过来，即触发了：Git 会视为"修改/删除"冲突（技术上：修改一个不存在的文件）。
+
+---
+
+实际，如上情形：不影响操作本质​：
+
+你通过 git checkout --theirs 明确告诉 Git："我接受源提交的变更，请创建这个新文件"
+这正是 cherry-pick 的标准解决流程
+
+---
+
+也就是说，如果遇到这个问题，执行以下命令就行继续挑合即可。
+
+```bash
+git checkout --theirs -- test.md  # 恢复冲突文件
+git add test.md                    # 标记冲突已解决
+git cherry-pick --continue         # 继续cherry-pick操作
+```
+
+---
+
+### 4.5 注意事项​
+- **​提交哈希的唯一性**​：即使提交来自不同分支，Git 也会根据内容生成唯一哈希，因此 cherry-pick 可跨分支使用。
+- ​**冲突处理**​：若挑合的提交与目标分支有冲突，需手动解决后提交（类似合并冲突）。
+- ​**顺序问题**​：cherry-pick 按提交顺序执行，若挑合多个提交需注意依赖关系（如先挑合 C2 再挑合 C3）。
+
+---
