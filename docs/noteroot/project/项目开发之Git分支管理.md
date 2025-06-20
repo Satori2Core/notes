@@ -493,3 +493,26 @@ git cherry-pick --continue         # 继续cherry-pick操作
 - ​**顺序问题**​：cherry-pick 按提交顺序执行，若挑合多个提交需注意依赖关系（如先挑合 C2 再挑合 C3）。
 
 ---
+
+
+## 5. 本文 Git 分支管理指令总结
+
+| 指令名称 | 命令格式 | 描述说明 |
+|----------|----------|----------|
+| **查看当前分支** | `git branch` | 显示本地分支列表，带 `*` 号表示当前所在分支 |
+| **创建新分支** | `git branch <branch_name>` | 基于当前分支创建新分支（不切换） |
+| **切换分支** | `git checkout <branch_name>` | 切换到指定分支 |
+| **创建并切换分支** | `git checkout -b <branch_name>` | 创建新分支并立即切换到该分支 |
+| **查看所有分支** | `git branch -a` | 显示本地和远程所有分支 |
+| **删除分支（安全）** | `git branch -d <branch_name>` | 仅在分支已合并时允许删除 |
+| **删除分支（强制）** | `git branch -D <branch_name>` | 强制删除未合并的分支 |
+| **更新主分支** | `git pull origin <branch_name>` | 拉取远程分支最新代码（合并前准备） |
+| **合并分支** | `git merge <source_branch>` | 将指定分支合并到当前分支 |
+| **查看简洁提交日志** | `git log --oneline` | 单行显示提交历史和哈希值 |
+| **挑合提交** | `git cherry-pick <commit_hash>` | 将指定提交应用到当前分支 |
+| **解决挑合冲突后继续** | `git cherry-pick --continue` | 解决冲突后继续挑合操作 |
+| **终止挑合操作** | `git cherry-pick --abort` | 取消挑合并回到操作前状态 |
+| **接受源分支变更** | `git checkout --theirs -- <file>` | 解决冲突时完全采用源分支文件内容 |
+| **标记冲突已解决** | `git add <file>` | 解决冲突后将文件标记为已解决 |
+
+---
