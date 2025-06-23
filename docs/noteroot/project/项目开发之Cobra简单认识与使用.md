@@ -18,6 +18,8 @@ lastUpdated: '2025/6/23 21:00:00'
 
 > 我的随笔录：[Satori2Core 随笔录 —— 更新计划 / 笔录目录](https://satori2core.github.io/notes/noteroot/about/%E5%85%B3%E4%BA%8E%E6%9B%B4%E6%96%B0%E8%AE%A1%E5%88%92.html)
 
+[代码示例地址](https://github.com/Satori2Core/LearnGoPkgTools)
+
 ---
 
 
