@@ -5,9 +5,9 @@ sidebar: 'auto'
 categories:
  - Cobra
 tags:
- - 项目
+ - Go项目开发
  - Go
- - Go pkg
+ - Cobra
  - 环境搭建
 publish: true
 lastUpdated: '2025/6/23 21:00:00'
