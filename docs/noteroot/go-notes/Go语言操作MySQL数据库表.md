@@ -1,5 +1,5 @@
 ---
-title: 【Go语言基础】Go语言操作MySQL数据库 —— 库/表操作
+title: 【Go语言基础】Go语言 & MySQL数据库 —— 库/表操作
 date: '2025-6-7'
 sidebar: 'auto'
 categories:
