@@ -9,6 +9,7 @@ tags:
  - Git
  - 环境搭建
 publish: true
+sticky: 6
 lastUpdated: '2025/6/9 21:00:00'
 ---
 
