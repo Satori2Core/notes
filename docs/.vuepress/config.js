@@ -1,5 +1,5 @@
 module.exports = {
-  title: '开发随笔',
+  title: 'Yang随笔',
   description: '记录开发过程中的学习、思考与实践',
   base: '/notes/',
   head: [
