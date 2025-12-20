@@ -286,7 +286,7 @@ var rootCmd = &cobra.Command{
 
 #### 4.5 典型工作流程图示
 
-![cobraflow](./image/cobraflow.png)
+![cobraflow](/archive/images/project/cobraflow.png)
 
 ---
 

@@ -275,7 +275,7 @@ if err = tx.Commit(); err != nil {
 
 ### 5. 完整操作流程示意
 
-![sqlMysql](./image/sqlMysql.png)
+
 
 
 ---

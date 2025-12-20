@@ -121,7 +121,7 @@ parentCmd.AddCommand(childCmd)
 
 #### 2.3 命令执行流程示意
 
-![cobrachildcommand](./image/cobrachildcommand.png)
+![cobrachildcommand](/archive/images/project/cobrachildcommand.png)
 
 #### 2.4 使用示例
 

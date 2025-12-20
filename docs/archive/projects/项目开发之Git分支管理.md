@@ -243,8 +243,6 @@ Fast-forward
 ```
 > 看看效果？
 
-![gitmerge](./gitmerge.png)
-
 ---
 
 ### 3.3 合并冲突（Merge Conflict）​
@@ -305,18 +303,12 @@ test conflict B
 ```
 - 内容如下
 
-![testconflict](./testconflict.png)
-
 - 第二步：手动选择保留哪部分代码（或合并两者），删除冲突标记：
 > 直白的说就是修改文件内容，修改后的内容作为最终内容结果。
-
-![fixconflict](./fixconflict.png)
 
 - 第三步：提交结果
 
 > 我们去github瞅瞅
-
-![fixconflictresult](./fixconflictresult.png)
 
 ---
 

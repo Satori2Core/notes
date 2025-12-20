@@ -52,7 +52,6 @@ git config --global user.email "your@email.com"
 # 查看所有配置项（用来看看刚刚的设置是否成功）
 git config --list
 ```
-![git用户配置](./gituserconfig.png)
 
 > 注​：如需为特定项目设置不同身份，去掉 --global 后在项目目录执行
 
@@ -78,19 +77,12 @@ cat ~/.ssh/id_ed25519.pub
 ssh -T git@github.com
 ```
 
-![gitsshconfig](./gitsshconfig.png)
-
 **【代码平台配置】**
 > 以`Github`为例
 
-【主页：个人】 => 【设置/setting】 => 【SSH and GPG keys】 => 【new keys】 => 【如下图】
-
-![githubsshconfig](./githubsshconfig.png)
-
+【主页：个人】 => 【设置/setting】 => 【SSH and GPG keys】 => 【new keys】
 
 **【连接验证】**
-
-![sshconntest](./sshconntest.png)
 
 ---
 

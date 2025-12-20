@@ -292,6 +292,6 @@ func main() {
 
 ### 6. 参数使用流程图
 
-![cobraflagsflow](./image/cobraflagsflow.png)
+![cobraflagsflow](/archive/images/project/cobraflagsflow.png)
 
 ---

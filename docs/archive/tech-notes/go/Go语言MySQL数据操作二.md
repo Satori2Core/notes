@@ -269,6 +269,6 @@ if err != nil {
 
 ### 5. 完整操作路程图
 
-![sqlMysqlContext](./image/sqlMysqlContext.png)
+
 
 ---

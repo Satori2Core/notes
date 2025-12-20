@@ -37,18 +37,18 @@ lastUpdated: '2025/6/9 21:00:00'
 
 **【第一步：浏览器中直接输入：github.com/你的用户名 => 来到个人主页】**
 
-![GitHub个人主页](./githomepage.png)
+![GitHub个人主页](/archive/images/project/githomepage.png)
 
 ---
 **【第二步：选择创建分支】**
 
-![GitHub新建仓库](./gitcreate.png)
+![GitHub新建仓库](/archive/images/project/gitcreate.png)
 
 ---
 
 **【第三步：输入仓库名，直接创建代码仓库】**
 
-![GitHub完成仓库创建](./gitdonecreate.png)
+![GitHub完成仓库创建](/archive/images/project/gitdonecreate.png)
 
 ---
 
@@ -512,7 +512,7 @@ devuser@vm:~/workspace/GitLearnLab$ git log --oneline --graph --decorate
 ```
 
 **【成果展示】**
-![firstcommit](./firstcommit.png)
+![firstcommit](/archive/images/project/firstcommit.png)
 
 ---
 

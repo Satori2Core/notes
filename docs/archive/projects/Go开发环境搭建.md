@@ -365,7 +365,7 @@ sudo rm -f /usr/bin/code  # 软链接（若有）
 <!-- ![安装Go插件](./安装Go插件.png) -->
 
 - 按`Ctrl+Shift+p`输入：`Go Install/Update Tools`安装tools，全选安装。
-![Go Install/Update Tools](./Go-Install-Update-Tools.png)
+<!-- Go Install/Update Tools 图片已移除 -->
 
 ---
 
