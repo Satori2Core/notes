@@ -69,16 +69,7 @@ module.exports = {
           { text: '大型项目', link: '/projects/large/' }
         ]
       },
-      {
-        text: '学习笔记',
-        link: '/notes/',
-        icon: 'reco-book'
-      },
-      {
-        text: '资源收藏',
-        link: '/resources/',
-        icon: 'reco-favor'
-      },
+
       {
         text: '学习时间线',
         link: '/timeLine/',
