@@ -34,8 +34,8 @@ jobs:
           last_commit_date=$(git log -1 --pretty=format:%cD)
           find . -type f -exec touch -d "$last_commit_date" "{}" \;
       
-      - name: Build VuePress site
-        run: npx vuepress build docs
+      - name: Build VuePress site with verbose logging
+        run: npx vuepress build docs --debug
       
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
