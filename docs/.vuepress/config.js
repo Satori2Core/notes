@@ -30,51 +30,11 @@ module.exports = {
     // 导航栏配置
     nav: [
       { text: '首页', link: '/', icon: 'reco-home' },
-      {
-        text: '基础知识',
-        icon: 'reco-other',
-        items: [
-          { text: 'Go语言核心', link: '/foundations/go-core/' },
-          { text: '数据结构', link: '/foundations/data-structures/' },
-          { text: '算法', link: '/foundations/algorithms/' }
-        ]
-      },
-      {
-        text: '后端技术',
-        icon: 'reco-database',
-        items: [
-          { text: '数据库', link: '/backend-tech/database/' },
-          { text: '缓存', link: '/backend-tech/cache/' },
-          { text: '消息队列', link: '/backend-tech/message-queue/' },
-          { text: '微服务', link: '/backend-tech/micro-services/' },
-          { text: 'API设计', link: '/backend-tech/api-design/' }
-        ]
-      },
-      {
-        text: '工程实践',
-        icon: 'reco-code',
-        items: [
-          { text: '代码设计', link: '/engineering/code-design/' },
-          { text: '测试', link: '/engineering/testing/' },
-          { text: 'CI/CD', link: '/engineering/ci-cd/' },
-          { text: '架构设计', link: '/engineering/architecture/' }
-        ]
-      },
-      {
-        text: '项目实战',
-        icon: 'reco-project',
-        items: [
-          { text: '小型项目', link: '/projects/small/' },
-          { text: '中型项目', link: '/projects/medium/' },
-          { text: '大型项目', link: '/projects/large/' }
-        ]
-      },
-
-      {
-        text: '学习时间线',
-        link: '/timeLine/',
-        icon: 'reco-date'
-      },
+      { text: '基础知识', link: '/foundations/', icon: 'reco-other' },
+      { text: '后端技术', link: '/backend-tech/', icon: 'reco-database' },
+      { text: '工程实践', link: '/engineering/', icon: 'reco-code' },
+      { text: '项目实战', link: '/projects/', icon: 'reco-project' },
+      { text: '学习时间线', link: '/timeLine/', icon: 'reco-date' },
       {
         text: '关于',
         icon: 'reco-user',
@@ -102,10 +62,7 @@ module.exports = {
           title: '基础知识',
           collapsable: false,
           children: [
-            '',
-            'go-core/',
-            'data-structures/',
-            'algorithms/'
+            ''
           ]
         }
       ],
@@ -114,12 +71,7 @@ module.exports = {
           title: '后端技术',
           collapsable: false,
           children: [
-            '',
-            'database/',
-            'cache/',
-            'message-queue/',
-            'micro-services/',
-            'api-design/'
+            ''
           ]
         }
       ],
@@ -128,11 +80,7 @@ module.exports = {
           title: '工程实践',
           collapsable: false,
           children: [
-            '',
-            'code-design/',
-            'testing/',
-            'ci-cd/',
-            'architecture/'
+            ''
           ]
         }
       ],
@@ -141,10 +89,7 @@ module.exports = {
           title: '项目实战',
           collapsable: false,
           children: [
-            '',
-            'small/',
-            'medium/',
-            'large/'
+            ''
           ]
         }
       ]
