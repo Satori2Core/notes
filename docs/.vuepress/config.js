@@ -30,7 +30,13 @@ module.exports = {
     // 导航栏配置
     nav: [
       { text: '首页', link: '/', icon: 'reco-home' },
-      { text: '基础知识', link: '/foundations/', icon: 'reco-other' },
+      {
+        text: '基础知识',
+        icon: 'reco-other',
+        items: [
+          { text: 'Go语言核心', link: '/foundations/go-core/' }
+        ]
+      },
       { text: '后端技术', link: '/backend-tech/', icon: 'reco-database' },
       { text: '工程实践', link: '/engineering/', icon: 'reco-code' },
       { text: '项目实战', link: '/projects/', icon: 'reco-project' },
@@ -57,12 +63,25 @@ module.exports = {
     
     // 侧边栏配置
     sidebar: {
+      '/foundations/go-core/': [
+        {
+          title: 'Go语言核心',
+          collapsable: false,
+          children: [
+            '',
+            '001-Go语言原生支持Unicode编码'
+            // '002-测试自动侧边栏',
+            // '003-测试自动侧边栏-2'
+          ]
+        }
+      ],
       '/foundations/': [
         {
           title: '基础知识',
           collapsable: false,
           children: [
-            ''
+            '',
+            'go-core/'
           ]
         }
       ],
