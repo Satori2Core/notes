@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[78],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[79],{
 
 /***/ "./docs/resources/README.md":
 /*!**********************************!*\
@@ -175,4 +175,4 @@ var staticRenderFns = [];
 /***/ })
 
 }]);
-//# sourceMappingURL=78.b04a62fc.js.map
+//# sourceMappingURL=79.b5ca1ae0.js.map

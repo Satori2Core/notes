@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[74],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[75],{
 
 /***/ "./docs/learning-plan/yearly/README.md":
 /*!*********************************************!*\
@@ -166,4 +166,4 @@ var staticRenderFns = [];
 /***/ })
 
 }]);
-//# sourceMappingURL=74.42f593bf.js.map
+//# sourceMappingURL=75.91484274.js.map

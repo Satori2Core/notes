@@ -64,7 +64,7 @@
 /******/
 /******/ 	// script path function
 /******/ 	function jsonpScriptSrc(chunkId) {
-/******/ 		return __webpack_require__.p + "assets/js/" + ({"vendors~docsearch":"vendors~docsearch"}[chunkId]||chunkId) + "." + {"0":"65702559","1":"46f6c3e4","2":"216846e5","3":"26058e59","4":"2eb4184a","5":"0fce40fe","6":"42941957","7":"1bc310d5","8":"67bed78f","9":"0f7b8b09","10":"cf8663a9","11":"f5fccbb0","12":"3130ed38","13":"6f00450d","14":"ab94558a","15":"67d3e3df","16":"9161f9cc","17":"a71a9f75","18":"791bed80","19":"5cb65fc7","20":"90e27b1b","21":"ce208378","22":"72f3620f","23":"d5f7319f","24":"40bddf2d","25":"e54fb93c","26":"55f66d8e","27":"41737160","28":"8400df33","29":"62f54523","30":"e5adcf76","31":"5f58fb05","32":"b072c20e","33":"0809d4c7","34":"908ac687","35":"5e70cc3c","36":"4541f227","37":"5244f1eb","38":"7cf640b8","39":"42c56b92","40":"ca44cca9","41":"ae519933","42":"23458acc","43":"475fb470","44":"4d808427","45":"dc36cfd4","46":"9d4554b7","47":"2573ec02","48":"1f099cb7","49":"12ff8e15","50":"6ef37e95","51":"ed4dd846","52":"dc27c84a","53":"1087a690","54":"01191871","55":"c6d9be69","56":"d16d64f6","57":"bd60f22a","58":"0e9ffab3","59":"a1e0f0e6","60":"f182fda2","61":"4ca3ce62","62":"836eec6a","63":"cb5239f4","64":"dc0105f0","65":"92a78b67","66":"fadbbccd","67":"01a59b6c","68":"13c1bcf5","69":"f4789bb6","70":"c0b008d7","71":"0cd69f46","72":"d1741a8e","73":"8011bcde","74":"42f593bf","75":"56471791","76":"040db4ad","77":"d72ea72c","78":"b04a62fc","79":"bc4fd916","vendors~docsearch":"bbce2ad2"}[chunkId] + ".js"
+/******/ 		return __webpack_require__.p + "assets/js/" + ({"vendors~docsearch":"vendors~docsearch"}[chunkId]||chunkId) + "." + {"0":"65702559","1":"46f6c3e4","2":"216846e5","3":"26058e59","4":"2eb4184a","5":"0fce40fe","6":"42941957","7":"1bc310d5","8":"67bed78f","9":"0f7b8b09","10":"cf8663a9","11":"f5fccbb0","12":"3130ed38","13":"6f00450d","14":"ab94558a","15":"67d3e3df","16":"9161f9cc","17":"a71a9f75","18":"791bed80","19":"5cb65fc7","20":"90e27b1b","21":"ce208378","22":"72f3620f","23":"d5f7319f","24":"40bddf2d","25":"e54fb93c","26":"55f66d8e","27":"41737160","28":"8400df33","29":"62f54523","30":"e5adcf76","31":"5f58fb05","32":"b072c20e","33":"0809d4c7","34":"908ac687","35":"5e70cc3c","36":"4541f227","37":"5244f1eb","38":"7cf640b8","39":"42c56b92","40":"ca44cca9","41":"ae519933","42":"23458acc","43":"475fb470","44":"4d808427","45":"dc36cfd4","46":"9d4554b7","47":"2573ec02","48":"1f099cb7","49":"12ff8e15","50":"6ef37e95","51":"ed4dd846","52":"dc27c84a","53":"1087a690","54":"01191871","55":"c6d9be69","56":"d16d64f6","57":"bd60f22a","58":"0e9ffab3","59":"a1e0f0e6","60":"f182fda2","61":"4ca3ce62","62":"836eec6a","63":"cb5239f4","64":"dc0105f0","65":"92a78b67","66":"fadbbccd","67":"01a59b6c","68":"13c1bcf5","69":"f4789bb6","70":"c0b008d7","71":"50c37e31","72":"d810f7fa","73":"7e21fef9","74":"7f795003","75":"91484274","76":"2c9a7ab9","77":"081dde2c","78":"b2e10b47","79":"b5ca1ae0","80":"708757f0","vendors~docsearch":"bbce2ad2"}[chunkId] + ".js"
 /******/ 	}
 /******/
 /******/ 	// The require function
@@ -3419,7 +3419,7 @@ __webpack_require__.r(__webpack_exports__);
       "key": "Go",
       "scope": "tags",
       "path": "/tag/Go/",
-      "pageKeys": ["v-9117b73e", "v-3f86d8ca", "v-6f06907e", "v-1c182d06", "v-f86fef16", "v-401b0f81", "v-9f954d16", "v-63191d48", "v-ddb97f40", "v-fb3af0e8", "v-16fcfa44", "v-0f2c6a0c", "v-425cf6b0", "v-18bbd53a", "v-45d5e92b", "v-6986644c", "v-3531c574", "v-0cfb6b90", "v-26a561b4"]
+      "pageKeys": ["v-9117b73e", "v-3f86d8ca", "v-6f06907e", "v-1c182d06", "v-f86fef16", "v-9f954d16", "v-401b0f81", "v-63191d48", "v-ddb97f40", "v-fb3af0e8", "v-0f2c6a0c", "v-16fcfa44", "v-425cf6b0", "v-6986644c", "v-45d5e92b", "v-3531c574", "v-18bbd53a", "v-0cfb6b90", "v-26a561b4", "v-40ed47ee"]
     },
     "基础语法": {
       "key": "基础语法",
@@ -3437,7 +3437,7 @@ __webpack_require__.r(__webpack_exports__);
       "key": "项目",
       "scope": "tags",
       "path": "/tag/项目/",
-      "pageKeys": ["v-3f86d8ca", "v-6f06907e", "v-1c182d06", "v-f86fef16", "v-9f954d16", "v-da167078", "v-baad0a5c", "v-16fcfa44", "v-7ae32a78", "v-0f2c6a0c", "v-425cf6b0", "v-18bbd53a", "v-6986644c", "v-3531c574"]
+      "pageKeys": ["v-3f86d8ca", "v-6f06907e", "v-1c182d06", "v-f86fef16", "v-9f954d16", "v-7ae32a78", "v-da167078", "v-baad0a5c", "v-0f2c6a0c", "v-16fcfa44", "v-425cf6b0", "v-6986644c", "v-3531c574", "v-18bbd53a"]
     },
     "前端": {
       "key": "前端",
@@ -3449,7 +3449,7 @@ __webpack_require__.r(__webpack_exports__);
       "key": "环境搭建",
       "scope": "tags",
       "path": "/tag/环境搭建/",
-      "pageKeys": ["v-3f86d8ca", "v-6f06907e", "v-401b0f81", "v-9f954d16", "v-63191d48", "v-ddb97f40", "v-da167078", "v-baad0a5c", "v-16fcfa44", "v-7ae32a78", "v-0f2c6a0c", "v-425cf6b0", "v-3531c574"]
+      "pageKeys": ["v-3f86d8ca", "v-6f06907e", "v-9f954d16", "v-401b0f81", "v-63191d48", "v-7ae32a78", "v-ddb97f40", "v-da167078", "v-baad0a5c", "v-0f2c6a0c", "v-16fcfa44", "v-425cf6b0", "v-3531c574"]
     },
     "项目：MiniBlog": {
       "key": "项目：MiniBlog",
@@ -3479,7 +3479,7 @@ __webpack_require__.r(__webpack_exports__);
       "key": "Git",
       "scope": "tags",
       "path": "/tag/Git/",
-      "pageKeys": ["v-da167078", "v-baad0a5c", "v-7ae32a78"]
+      "pageKeys": ["v-7ae32a78", "v-da167078", "v-baad0a5c"]
     },
     "设计模式": {
       "key": "设计模式",
@@ -3492,6 +3492,12 @@ __webpack_require__.r(__webpack_exports__);
       "scope": "tags",
       "path": "/tag/字符编码/",
       "pageKeys": ["v-26a561b4"]
+    },
+    "编程语言": {
+      "key": "编程语言",
+      "scope": "tags",
+      "path": "/tag/编程语言/",
+      "pageKeys": ["v-40ed47ee"]
     }
   },
   "categories": {
@@ -3499,7 +3505,7 @@ __webpack_require__.r(__webpack_exports__);
       "key": "Go语言核心",
       "scope": "categories",
       "path": "/categories/Go语言核心/",
-      "pageKeys": ["v-9117b73e", "v-26a561b4"]
+      "pageKeys": ["v-9117b73e", "v-26a561b4", "v-40ed47ee"]
     },
     "编程语言": {
       "key": "编程语言",
@@ -3523,7 +3529,7 @@ __webpack_require__.r(__webpack_exports__);
       "key": "Git",
       "scope": "categories",
       "path": "/categories/Git/",
-      "pageKeys": ["v-da167078", "v-baad0a5c", "v-7ae32a78"]
+      "pageKeys": ["v-7ae32a78", "v-da167078", "v-baad0a5c"]
     },
     "设计模式": {
       "key": "设计模式",
@@ -3535,13 +3541,19 @@ __webpack_require__.r(__webpack_exports__);
       "key": "Go语言基础",
       "scope": "categories",
       "path": "/categories/Go语言基础/",
-      "pageKeys": ["v-16fcfa44", "v-0f2c6a0c", "v-425cf6b0", "v-18bbd53a", "v-6986644c", "v-3531c574"]
+      "pageKeys": ["v-0f2c6a0c", "v-16fcfa44", "v-425cf6b0", "v-6986644c", "v-3531c574", "v-18bbd53a"]
     },
     "深入 Go 语言": {
       "key": "深入 Go 语言",
       "scope": "categories",
       "path": "/categories/深入 Go 语言/",
       "pageKeys": ["v-45d5e92b", "v-0cfb6b90"]
+    },
+    "基础知识": {
+      "key": "基础知识",
+      "scope": "categories",
+      "path": "/categories/基础知识/",
+      "pageKeys": ["v-40ed47ee"]
     }
   },
   "timeline": {}
@@ -3793,13 +3805,24 @@ __webpack_require__.r(__webpack_exports__);
   prevText: "Prev",
   nextText: "Next"
 }, {
+  pid: "tags",
+  id: "编程语言",
+  filter: _pageFilters__WEBPACK_IMPORTED_MODULE_1__["default"].tags,
+  sorter: _pageSorters__WEBPACK_IMPORTED_MODULE_0__["default"].tags,
+  pages: [{
+    "path": "/tag/编程语言/",
+    "interval": [0, 1]
+  }],
+  prevText: "Prev",
+  nextText: "Next"
+}, {
   pid: "categories",
   id: "Go语言核心",
   filter: _pageFilters__WEBPACK_IMPORTED_MODULE_1__["default"].categories,
   sorter: _pageSorters__WEBPACK_IMPORTED_MODULE_0__["default"].categories,
   pages: [{
     "path": "/categories/Go语言核心/",
-    "interval": [0, 2]
+    "interval": [0, 3]
   }],
   prevText: "Prev",
   nextText: "Next"
@@ -3877,6 +3900,17 @@ __webpack_require__.r(__webpack_exports__);
   pages: [{
     "path": "/categories/深入 Go 语言/",
     "interval": [0, 2]
+  }],
+  prevText: "Prev",
+  nextText: "Next"
+}, {
+  pid: "categories",
+  id: "基础知识",
+  filter: _pageFilters__WEBPACK_IMPORTED_MODULE_1__["default"].categories,
+  sorter: _pageSorters__WEBPACK_IMPORTED_MODULE_0__["default"].categories,
+  pages: [{
+    "path": "/categories/基础知识/",
+    "interval": [0, 1]
   }],
   prevText: "Prev",
   nextText: "Next"
@@ -4038,44 +4072,45 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ({
   "v-6765c2ba": () => __webpack_require__.e(/*! import() */ 40).then(__webpack_require__.bind(null, /*! ./docs/README.md */ "./docs/README.md")),
   "v-9117b73e": () => __webpack_require__.e(/*! import() */ 41).then(__webpack_require__.bind(null, /*! ./docs/_note-template.md */ "./docs/_note-template.md")),
-  "v-26cc84d4": () => __webpack_require__.e(/*! import() */ 42).then(__webpack_require__.bind(null, /*! ./docs/archive/README.md */ "./docs/archive/README.md")),
   "v-2b6704ff": () => __webpack_require__.e(/*! import() */ 43).then(__webpack_require__.bind(null, /*! ./docs/archive/about/me.md */ "./docs/archive/about/me.md")),
+  "v-26cc84d4": () => __webpack_require__.e(/*! import() */ 42).then(__webpack_require__.bind(null, /*! ./docs/archive/README.md */ "./docs/archive/README.md")),
   "v-bed954f2": () => __webpack_require__.e(/*! import() */ 44).then(__webpack_require__.bind(null, /*! ./docs/archive/backup/空文章框架模板.md */ "./docs/archive/backup/空文章框架模板.md")),
-  "v-d591b004": () => __webpack_require__.e(/*! import() */ 45).then(__webpack_require__.bind(null, /*! ./docs/archive/categories/关于更新计划.md */ "./docs/archive/categories/关于更新计划.md")),
   "v-3f86d8ca": () => __webpack_require__.e(/*! import() */ 46).then(__webpack_require__.bind(null, /*! ./docs/archive/projects/AntDesignPro的启动与瘦身.md */ "./docs/archive/projects/AntDesignPro的启动与瘦身.md")),
   "v-6f06907e": () => __webpack_require__.e(/*! import() */ 47).then(__webpack_require__.bind(null, /*! ./docs/archive/projects/Go开发环境搭建.md */ "./docs/archive/projects/Go开发环境搭建.md")),
   "v-1c182d06": () => __webpack_require__.e(/*! import() */ 48).then(__webpack_require__.bind(null, /*! ./docs/archive/projects/mini-blog/关于项目.md */ "./docs/archive/projects/mini-blog/关于项目.md")),
   "v-f86fef16": () => __webpack_require__.e(/*! import() */ 49).then(__webpack_require__.bind(null, /*! ./docs/archive/projects/user-center/关于用户中心服务.md */ "./docs/archive/projects/user-center/关于用户中心服务.md")),
-  "v-401b0f81": () => __webpack_require__.e(/*! import() */ 51).then(__webpack_require__.bind(null, /*! ./docs/archive/projects/项目开发之Cobra命令与参数.md */ "./docs/archive/projects/项目开发之Cobra命令与参数.md")),
+  "v-d591b004": () => __webpack_require__.e(/*! import() */ 45).then(__webpack_require__.bind(null, /*! ./docs/archive/categories/关于更新计划.md */ "./docs/archive/categories/关于更新计划.md")),
   "v-9f954d16": () => __webpack_require__.e(/*! import() */ 50).then(__webpack_require__.bind(null, /*! ./docs/archive/projects/数据库选择策略与安装.md */ "./docs/archive/projects/数据库选择策略与安装.md")),
+  "v-401b0f81": () => __webpack_require__.e(/*! import() */ 51).then(__webpack_require__.bind(null, /*! ./docs/archive/projects/项目开发之Cobra命令与参数.md */ "./docs/archive/projects/项目开发之Cobra命令与参数.md")),
   "v-63191d48": () => __webpack_require__.e(/*! import() */ 53).then(__webpack_require__.bind(null, /*! ./docs/archive/projects/项目开发之Cobra简单认识与使用.md */ "./docs/archive/projects/项目开发之Cobra简单认识与使用.md")),
+  "v-7ae32a78": () => __webpack_require__.e(/*! import() */ 54).then(__webpack_require__.bind(null, /*! ./docs/archive/projects/项目开发之Git分支管理.md */ "./docs/archive/projects/项目开发之Git分支管理.md")),
   "v-ddb97f40": () => __webpack_require__.e(/*! import() */ 52).then(__webpack_require__.bind(null, /*! ./docs/archive/projects/项目开发之Cobra命令与子命令.md */ "./docs/archive/projects/项目开发之Cobra命令与子命令.md")),
   "v-da167078": () => __webpack_require__.e(/*! import() */ 55).then(__webpack_require__.bind(null, /*! ./docs/archive/projects/项目开发之Git基本操作.md */ "./docs/archive/projects/项目开发之Git基本操作.md")),
   "v-baad0a5c": () => __webpack_require__.e(/*! import() */ 56).then(__webpack_require__.bind(null, /*! ./docs/archive/projects/项目开发之Git本地基本配置.md */ "./docs/archive/projects/项目开发之Git本地基本配置.md")),
   "v-fb3af0e8": () => __webpack_require__.e(/*! import() */ 57).then(__webpack_require__.bind(null, /*! ./docs/archive/tech-notes/designpattern/责任连模式.md */ "./docs/archive/tech-notes/designpattern/责任连模式.md")),
-  "v-16fcfa44": () => __webpack_require__.e(/*! import() */ 58).then(__webpack_require__.bind(null, /*! ./docs/archive/tech-notes/go/Go语言MySQL数据操作一.md */ "./docs/archive/tech-notes/go/Go语言MySQL数据操作一.md")),
-  "v-7ae32a78": () => __webpack_require__.e(/*! import() */ 54).then(__webpack_require__.bind(null, /*! ./docs/archive/projects/项目开发之Git分支管理.md */ "./docs/archive/projects/项目开发之Git分支管理.md")),
   "v-0f2c6a0c": () => __webpack_require__.e(/*! import() */ 59).then(__webpack_require__.bind(null, /*! ./docs/archive/tech-notes/go/Go语言MySQL数据操作三.md */ "./docs/archive/tech-notes/go/Go语言MySQL数据操作三.md")),
+  "v-16fcfa44": () => __webpack_require__.e(/*! import() */ 58).then(__webpack_require__.bind(null, /*! ./docs/archive/tech-notes/go/Go语言MySQL数据操作一.md */ "./docs/archive/tech-notes/go/Go语言MySQL数据操作一.md")),
   "v-425cf6b0": () => __webpack_require__.e(/*! import() */ 60).then(__webpack_require__.bind(null, /*! ./docs/archive/tech-notes/go/Go语言MySQL数据操作二.md */ "./docs/archive/tech-notes/go/Go语言MySQL数据操作二.md")),
-  "v-18bbd53a": () => __webpack_require__.e(/*! import() */ 61).then(__webpack_require__.bind(null, /*! ./docs/archive/tech-notes/go/Go语言slog日志库的基本使用指南.md */ "./docs/archive/tech-notes/go/Go语言slog日志库的基本使用指南.md")),
-  "v-45d5e92b": () => __webpack_require__.e(/*! import() */ 63).then(__webpack_require__.bind(null, /*! ./docs/archive/tech-notes/go/Go语言基础.md */ "./docs/archive/tech-notes/go/Go语言基础.md")),
   "v-6986644c": () => __webpack_require__.e(/*! import() */ 62).then(__webpack_require__.bind(null, /*! ./docs/archive/tech-notes/go/Go语言slog日志库的认识.md */ "./docs/archive/tech-notes/go/Go语言slog日志库的认识.md")),
+  "v-45d5e92b": () => __webpack_require__.e(/*! import() */ 63).then(__webpack_require__.bind(null, /*! ./docs/archive/tech-notes/go/Go语言基础.md */ "./docs/archive/tech-notes/go/Go语言基础.md")),
   "v-3531c574": () => __webpack_require__.e(/*! import() */ 64).then(__webpack_require__.bind(null, /*! ./docs/archive/tech-notes/go/Go语言操作MySQL数据库表.md */ "./docs/archive/tech-notes/go/Go语言操作MySQL数据库表.md")),
+  "v-18bbd53a": () => __webpack_require__.e(/*! import() */ 61).then(__webpack_require__.bind(null, /*! ./docs/archive/tech-notes/go/Go语言slog日志库的基本使用指南.md */ "./docs/archive/tech-notes/go/Go语言slog日志库的基本使用指南.md")),
   "v-0cfb6b90": () => __webpack_require__.e(/*! import() */ 65).then(__webpack_require__.bind(null, /*! ./docs/archive/tech-notes/go/从继承体系到行为契约：C++转Go的接口编程思考.md */ "./docs/archive/tech-notes/go/从继承体系到行为契约：C++转Go的接口编程思考.md")),
   "v-97e3ebac": () => __webpack_require__.e(/*! import() */ 66).then(__webpack_require__.bind(null, /*! ./docs/archive/timeLine/README.md */ "./docs/archive/timeLine/README.md")),
-  "v-c2378e6c": () => __webpack_require__.e(/*! import() */ 67).then(__webpack_require__.bind(null, /*! ./docs/backend-tech/README.md */ "./docs/backend-tech/README.md")),
   "v-10202a9c": () => __webpack_require__.e(/*! import() */ 68).then(__webpack_require__.bind(null, /*! ./docs/engineering/README.md */ "./docs/engineering/README.md")),
-  "v-26a561b4": () => __webpack_require__.e(/*! import() */ 70).then(__webpack_require__.bind(null, /*! ./docs/foundations/go-core/001-Go语言原生支持Unicode编码.md */ "./docs/foundations/go-core/001-Go语言原生支持Unicode编码.md")),
+  "v-c2378e6c": () => __webpack_require__.e(/*! import() */ 67).then(__webpack_require__.bind(null, /*! ./docs/backend-tech/README.md */ "./docs/backend-tech/README.md")),
   "v-2b5cb0d0": () => __webpack_require__.e(/*! import() */ 69).then(__webpack_require__.bind(null, /*! ./docs/foundations/README.md */ "./docs/foundations/README.md")),
-  "v-0d21fa28": () => __webpack_require__.e(/*! import() */ 71).then(__webpack_require__.bind(null, /*! ./docs/learning-plan/README.md */ "./docs/learning-plan/README.md")),
-  "v-58ec64ac": () => __webpack_require__.e(/*! import() */ 72).then(__webpack_require__.bind(null, /*! ./docs/learning-plan/monthly/README.md */ "./docs/learning-plan/monthly/README.md")),
-  "v-036abc2c": () => __webpack_require__.e(/*! import() */ 73).then(__webpack_require__.bind(null, /*! ./docs/learning-plan/weekly/README.md */ "./docs/learning-plan/weekly/README.md")),
-  "v-29777f0a": () => __webpack_require__.e(/*! import() */ 74).then(__webpack_require__.bind(null, /*! ./docs/learning-plan/yearly/README.md */ "./docs/learning-plan/yearly/README.md")),
-  "v-c15a0654": () => __webpack_require__.e(/*! import() */ 76).then(__webpack_require__.bind(null, /*! ./docs/notes/README.md */ "./docs/notes/README.md")),
-  "v-68e570c0": () => __webpack_require__.e(/*! import() */ 75).then(__webpack_require__.bind(null, /*! ./docs/learning-plan/操作文档.md */ "./docs/learning-plan/操作文档.md")),
-  "v-66f776ac": () => __webpack_require__.e(/*! import() */ 77).then(__webpack_require__.bind(null, /*! ./docs/projects/README.md */ "./docs/projects/README.md")),
-  "v-32e4dc0e": () => __webpack_require__.e(/*! import() */ 78).then(__webpack_require__.bind(null, /*! ./docs/resources/README.md */ "./docs/resources/README.md")),
-  "v-7342480a": () => __webpack_require__.e(/*! import() */ 79).then(__webpack_require__.bind(null, /*! ./docs/timeLine/README.md */ "./docs/timeLine/README.md"))
+  "v-26a561b4": () => __webpack_require__.e(/*! import() */ 70).then(__webpack_require__.bind(null, /*! ./docs/foundations/go-core/001-Go语言原生支持Unicode编码.md */ "./docs/foundations/go-core/001-Go语言原生支持Unicode编码.md")),
+  "v-40ed47ee": () => __webpack_require__.e(/*! import() */ 71).then(__webpack_require__.bind(null, /*! ./docs/foundations/go-core/README.md */ "./docs/foundations/go-core/README.md")),
+  "v-0d21fa28": () => __webpack_require__.e(/*! import() */ 72).then(__webpack_require__.bind(null, /*! ./docs/learning-plan/README.md */ "./docs/learning-plan/README.md")),
+  "v-58ec64ac": () => __webpack_require__.e(/*! import() */ 73).then(__webpack_require__.bind(null, /*! ./docs/learning-plan/monthly/README.md */ "./docs/learning-plan/monthly/README.md")),
+  "v-036abc2c": () => __webpack_require__.e(/*! import() */ 74).then(__webpack_require__.bind(null, /*! ./docs/learning-plan/weekly/README.md */ "./docs/learning-plan/weekly/README.md")),
+  "v-c15a0654": () => __webpack_require__.e(/*! import() */ 77).then(__webpack_require__.bind(null, /*! ./docs/notes/README.md */ "./docs/notes/README.md")),
+  "v-29777f0a": () => __webpack_require__.e(/*! import() */ 75).then(__webpack_require__.bind(null, /*! ./docs/learning-plan/yearly/README.md */ "./docs/learning-plan/yearly/README.md")),
+  "v-66f776ac": () => __webpack_require__.e(/*! import() */ 78).then(__webpack_require__.bind(null, /*! ./docs/projects/README.md */ "./docs/projects/README.md")),
+  "v-32e4dc0e": () => __webpack_require__.e(/*! import() */ 79).then(__webpack_require__.bind(null, /*! ./docs/resources/README.md */ "./docs/resources/README.md")),
+  "v-68e570c0": () => __webpack_require__.e(/*! import() */ 76).then(__webpack_require__.bind(null, /*! ./docs/learning-plan/操作文档.md */ "./docs/learning-plan/操作文档.md")),
+  "v-7342480a": () => __webpack_require__.e(/*! import() */ 80).then(__webpack_require__.bind(null, /*! ./docs/timeLine/README.md */ "./docs/timeLine/README.md"))
 });
 
 /***/ }),
@@ -4145,6 +4180,13 @@ const routes = [{
     Object(_app_util__WEBPACK_IMPORTED_MODULE_0__["ensureAsyncComponentsLoaded"])("Layout", "v-9117b73e").then(next);
   }
 }, {
+  name: "v-2b6704ff",
+  path: "/archive/about/me.html",
+  component: _home_runner_work_notes_notes_node_modules_vuepress_core_lib_client_components_GlobalLayout_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
+  beforeEnter: (to, from, next) => {
+    Object(_app_util__WEBPACK_IMPORTED_MODULE_0__["ensureAsyncComponentsLoaded"])("Layout", "v-2b6704ff").then(next);
+  }
+}, {
   name: "v-26cc84d4",
   path: "/archive/",
   component: _home_runner_work_notes_notes_node_modules_vuepress_core_lib_client_components_GlobalLayout_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
@@ -4154,13 +4196,6 @@ const routes = [{
 }, {
   path: "/archive/index.html",
   redirect: "/archive/"
-}, {
-  name: "v-2b6704ff",
-  path: "/archive/about/me.html",
-  component: _home_runner_work_notes_notes_node_modules_vuepress_core_lib_client_components_GlobalLayout_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
-  beforeEnter: (to, from, next) => {
-    Object(_app_util__WEBPACK_IMPORTED_MODULE_0__["ensureAsyncComponentsLoaded"])("Layout", "v-2b6704ff").then(next);
-  }
 }, {
   name: "v-bed954f2",
   path: "/archive/backup/%E7%A9%BA%E6%96%87%E7%AB%A0%E6%A1%86%E6%9E%B6%E6%A8%A1%E6%9D%BF.html",
@@ -4174,19 +4209,6 @@ const routes = [{
 }, {
   path: "/archive/backup/空文章框架模板.html",
   redirect: "/archive/backup/%E7%A9%BA%E6%96%87%E7%AB%A0%E6%A1%86%E6%9E%B6%E6%A8%A1%E6%9D%BF.html"
-}, {
-  name: "v-d591b004",
-  path: "/archive/categories/%E5%85%B3%E4%BA%8E%E6%9B%B4%E6%96%B0%E8%AE%A1%E5%88%92.html",
-  component: _home_runner_work_notes_notes_node_modules_vuepress_core_lib_client_components_GlobalLayout_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
-  beforeEnter: (to, from, next) => {
-    Object(_app_util__WEBPACK_IMPORTED_MODULE_0__["ensureAsyncComponentsLoaded"])("Layout", "v-d591b004").then(next);
-  }
-}, {
-  path: "/archive/categories/关于更新计划.html",
-  redirect: "/archive/categories/%E5%85%B3%E4%BA%8E%E6%9B%B4%E6%96%B0%E8%AE%A1%E5%88%92.html"
-}, {
-  path: "/archive/categories/关于更新计划.html",
-  redirect: "/archive/categories/%E5%85%B3%E4%BA%8E%E6%9B%B4%E6%96%B0%E8%AE%A1%E5%88%92.html"
 }, {
   name: "v-3f86d8ca",
   path: "/archive/projects/AntDesignPro%E7%9A%84%E5%90%AF%E5%8A%A8%E4%B8%8E%E7%98%A6%E8%BA%AB.html",
@@ -4240,18 +4262,18 @@ const routes = [{
   path: "/archive/projects/user-center/关于用户中心服务.html",
   redirect: "/archive/projects/user-center/%E5%85%B3%E4%BA%8E%E7%94%A8%E6%88%B7%E4%B8%AD%E5%BF%83%E6%9C%8D%E5%8A%A1.html"
 }, {
-  name: "v-401b0f81",
-  path: "/archive/projects/%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%8F%91%E4%B9%8BCobra%E5%91%BD%E4%BB%A4%E4%B8%8E%E5%8F%82%E6%95%B0.html",
+  name: "v-d591b004",
+  path: "/archive/categories/%E5%85%B3%E4%BA%8E%E6%9B%B4%E6%96%B0%E8%AE%A1%E5%88%92.html",
   component: _home_runner_work_notes_notes_node_modules_vuepress_core_lib_client_components_GlobalLayout_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
   beforeEnter: (to, from, next) => {
-    Object(_app_util__WEBPACK_IMPORTED_MODULE_0__["ensureAsyncComponentsLoaded"])("Layout", "v-401b0f81").then(next);
+    Object(_app_util__WEBPACK_IMPORTED_MODULE_0__["ensureAsyncComponentsLoaded"])("Layout", "v-d591b004").then(next);
   }
 }, {
-  path: "/archive/projects/项目开发之Cobra命令与参数.html",
-  redirect: "/archive/projects/%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%8F%91%E4%B9%8BCobra%E5%91%BD%E4%BB%A4%E4%B8%8E%E5%8F%82%E6%95%B0.html"
+  path: "/archive/categories/关于更新计划.html",
+  redirect: "/archive/categories/%E5%85%B3%E4%BA%8E%E6%9B%B4%E6%96%B0%E8%AE%A1%E5%88%92.html"
 }, {
-  path: "/archive/projects/项目开发之Cobra命令与参数.html",
-  redirect: "/archive/projects/%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%8F%91%E4%B9%8BCobra%E5%91%BD%E4%BB%A4%E4%B8%8E%E5%8F%82%E6%95%B0.html"
+  path: "/archive/categories/关于更新计划.html",
+  redirect: "/archive/categories/%E5%85%B3%E4%BA%8E%E6%9B%B4%E6%96%B0%E8%AE%A1%E5%88%92.html"
 }, {
   name: "v-9f954d16",
   path: "/archive/projects/%E6%95%B0%E6%8D%AE%E5%BA%93%E9%80%89%E6%8B%A9%E7%AD%96%E7%95%A5%E4%B8%8E%E5%AE%89%E8%A3%85.html",
@@ -4266,6 +4288,19 @@ const routes = [{
   path: "/archive/projects/数据库选择策略与安装.html",
   redirect: "/archive/projects/%E6%95%B0%E6%8D%AE%E5%BA%93%E9%80%89%E6%8B%A9%E7%AD%96%E7%95%A5%E4%B8%8E%E5%AE%89%E8%A3%85.html"
 }, {
+  name: "v-401b0f81",
+  path: "/archive/projects/%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%8F%91%E4%B9%8BCobra%E5%91%BD%E4%BB%A4%E4%B8%8E%E5%8F%82%E6%95%B0.html",
+  component: _home_runner_work_notes_notes_node_modules_vuepress_core_lib_client_components_GlobalLayout_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
+  beforeEnter: (to, from, next) => {
+    Object(_app_util__WEBPACK_IMPORTED_MODULE_0__["ensureAsyncComponentsLoaded"])("Layout", "v-401b0f81").then(next);
+  }
+}, {
+  path: "/archive/projects/项目开发之Cobra命令与参数.html",
+  redirect: "/archive/projects/%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%8F%91%E4%B9%8BCobra%E5%91%BD%E4%BB%A4%E4%B8%8E%E5%8F%82%E6%95%B0.html"
+}, {
+  path: "/archive/projects/项目开发之Cobra命令与参数.html",
+  redirect: "/archive/projects/%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%8F%91%E4%B9%8BCobra%E5%91%BD%E4%BB%A4%E4%B8%8E%E5%8F%82%E6%95%B0.html"
+}, {
   name: "v-63191d48",
   path: "/archive/projects/%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%8F%91%E4%B9%8BCobra%E7%AE%80%E5%8D%95%E8%AE%A4%E8%AF%86%E4%B8%8E%E4%BD%BF%E7%94%A8.html",
   component: _home_runner_work_notes_notes_node_modules_vuepress_core_lib_client_components_GlobalLayout_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
@@ -4278,6 +4313,19 @@ const routes = [{
 }, {
   path: "/archive/projects/项目开发之Cobra简单认识与使用.html",
   redirect: "/archive/projects/%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%8F%91%E4%B9%8BCobra%E7%AE%80%E5%8D%95%E8%AE%A4%E8%AF%86%E4%B8%8E%E4%BD%BF%E7%94%A8.html"
+}, {
+  name: "v-7ae32a78",
+  path: "/archive/projects/%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%8F%91%E4%B9%8BGit%E5%88%86%E6%94%AF%E7%AE%A1%E7%90%86.html",
+  component: _home_runner_work_notes_notes_node_modules_vuepress_core_lib_client_components_GlobalLayout_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
+  beforeEnter: (to, from, next) => {
+    Object(_app_util__WEBPACK_IMPORTED_MODULE_0__["ensureAsyncComponentsLoaded"])("Layout", "v-7ae32a78").then(next);
+  }
+}, {
+  path: "/archive/projects/项目开发之Git分支管理.html",
+  redirect: "/archive/projects/%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%8F%91%E4%B9%8BGit%E5%88%86%E6%94%AF%E7%AE%A1%E7%90%86.html"
+}, {
+  path: "/archive/projects/项目开发之Git分支管理.html",
+  redirect: "/archive/projects/%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%8F%91%E4%B9%8BGit%E5%88%86%E6%94%AF%E7%AE%A1%E7%90%86.html"
 }, {
   name: "v-ddb97f40",
   path: "/archive/projects/%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%8F%91%E4%B9%8BCobra%E5%91%BD%E4%BB%A4%E4%B8%8E%E5%AD%90%E5%91%BD%E4%BB%A4.html",
@@ -4331,32 +4379,6 @@ const routes = [{
   path: "/archive/tech-notes/designpattern/责任连模式.html",
   redirect: "/archive/tech-notes/designpattern/%E8%B4%A3%E4%BB%BB%E8%BF%9E%E6%A8%A1%E5%BC%8F.html"
 }, {
-  name: "v-16fcfa44",
-  path: "/archive/tech-notes/go/Go%E8%AF%AD%E8%A8%80MySQL%E6%95%B0%E6%8D%AE%E6%93%8D%E4%BD%9C%E4%B8%80.html",
-  component: _home_runner_work_notes_notes_node_modules_vuepress_core_lib_client_components_GlobalLayout_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
-  beforeEnter: (to, from, next) => {
-    Object(_app_util__WEBPACK_IMPORTED_MODULE_0__["ensureAsyncComponentsLoaded"])("Layout", "v-16fcfa44").then(next);
-  }
-}, {
-  path: "/archive/tech-notes/go/Go语言MySQL数据操作一.html",
-  redirect: "/archive/tech-notes/go/Go%E8%AF%AD%E8%A8%80MySQL%E6%95%B0%E6%8D%AE%E6%93%8D%E4%BD%9C%E4%B8%80.html"
-}, {
-  path: "/archive/tech-notes/go/Go语言MySQL数据操作一.html",
-  redirect: "/archive/tech-notes/go/Go%E8%AF%AD%E8%A8%80MySQL%E6%95%B0%E6%8D%AE%E6%93%8D%E4%BD%9C%E4%B8%80.html"
-}, {
-  name: "v-7ae32a78",
-  path: "/archive/projects/%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%8F%91%E4%B9%8BGit%E5%88%86%E6%94%AF%E7%AE%A1%E7%90%86.html",
-  component: _home_runner_work_notes_notes_node_modules_vuepress_core_lib_client_components_GlobalLayout_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
-  beforeEnter: (to, from, next) => {
-    Object(_app_util__WEBPACK_IMPORTED_MODULE_0__["ensureAsyncComponentsLoaded"])("Layout", "v-7ae32a78").then(next);
-  }
-}, {
-  path: "/archive/projects/项目开发之Git分支管理.html",
-  redirect: "/archive/projects/%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%8F%91%E4%B9%8BGit%E5%88%86%E6%94%AF%E7%AE%A1%E7%90%86.html"
-}, {
-  path: "/archive/projects/项目开发之Git分支管理.html",
-  redirect: "/archive/projects/%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%8F%91%E4%B9%8BGit%E5%88%86%E6%94%AF%E7%AE%A1%E7%90%86.html"
-}, {
   name: "v-0f2c6a0c",
   path: "/archive/tech-notes/go/Go%E8%AF%AD%E8%A8%80MySQL%E6%95%B0%E6%8D%AE%E6%93%8D%E4%BD%9C%E4%B8%89.html",
   component: _home_runner_work_notes_notes_node_modules_vuepress_core_lib_client_components_GlobalLayout_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
@@ -4369,6 +4391,19 @@ const routes = [{
 }, {
   path: "/archive/tech-notes/go/Go语言MySQL数据操作三.html",
   redirect: "/archive/tech-notes/go/Go%E8%AF%AD%E8%A8%80MySQL%E6%95%B0%E6%8D%AE%E6%93%8D%E4%BD%9C%E4%B8%89.html"
+}, {
+  name: "v-16fcfa44",
+  path: "/archive/tech-notes/go/Go%E8%AF%AD%E8%A8%80MySQL%E6%95%B0%E6%8D%AE%E6%93%8D%E4%BD%9C%E4%B8%80.html",
+  component: _home_runner_work_notes_notes_node_modules_vuepress_core_lib_client_components_GlobalLayout_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
+  beforeEnter: (to, from, next) => {
+    Object(_app_util__WEBPACK_IMPORTED_MODULE_0__["ensureAsyncComponentsLoaded"])("Layout", "v-16fcfa44").then(next);
+  }
+}, {
+  path: "/archive/tech-notes/go/Go语言MySQL数据操作一.html",
+  redirect: "/archive/tech-notes/go/Go%E8%AF%AD%E8%A8%80MySQL%E6%95%B0%E6%8D%AE%E6%93%8D%E4%BD%9C%E4%B8%80.html"
+}, {
+  path: "/archive/tech-notes/go/Go语言MySQL数据操作一.html",
+  redirect: "/archive/tech-notes/go/Go%E8%AF%AD%E8%A8%80MySQL%E6%95%B0%E6%8D%AE%E6%93%8D%E4%BD%9C%E4%B8%80.html"
 }, {
   name: "v-425cf6b0",
   path: "/archive/tech-notes/go/Go%E8%AF%AD%E8%A8%80MySQL%E6%95%B0%E6%8D%AE%E6%93%8D%E4%BD%9C%E4%BA%8C.html",
@@ -4383,18 +4418,18 @@ const routes = [{
   path: "/archive/tech-notes/go/Go语言MySQL数据操作二.html",
   redirect: "/archive/tech-notes/go/Go%E8%AF%AD%E8%A8%80MySQL%E6%95%B0%E6%8D%AE%E6%93%8D%E4%BD%9C%E4%BA%8C.html"
 }, {
-  name: "v-18bbd53a",
-  path: "/archive/tech-notes/go/Go%E8%AF%AD%E8%A8%80slog%E6%97%A5%E5%BF%97%E5%BA%93%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97.html",
+  name: "v-6986644c",
+  path: "/archive/tech-notes/go/Go%E8%AF%AD%E8%A8%80slog%E6%97%A5%E5%BF%97%E5%BA%93%E7%9A%84%E8%AE%A4%E8%AF%86.html",
   component: _home_runner_work_notes_notes_node_modules_vuepress_core_lib_client_components_GlobalLayout_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
   beforeEnter: (to, from, next) => {
-    Object(_app_util__WEBPACK_IMPORTED_MODULE_0__["ensureAsyncComponentsLoaded"])("Layout", "v-18bbd53a").then(next);
+    Object(_app_util__WEBPACK_IMPORTED_MODULE_0__["ensureAsyncComponentsLoaded"])("Layout", "v-6986644c").then(next);
   }
 }, {
-  path: "/archive/tech-notes/go/Go语言slog日志库的基本使用指南.html",
-  redirect: "/archive/tech-notes/go/Go%E8%AF%AD%E8%A8%80slog%E6%97%A5%E5%BF%97%E5%BA%93%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97.html"
+  path: "/archive/tech-notes/go/Go语言slog日志库的认识.html",
+  redirect: "/archive/tech-notes/go/Go%E8%AF%AD%E8%A8%80slog%E6%97%A5%E5%BF%97%E5%BA%93%E7%9A%84%E8%AE%A4%E8%AF%86.html"
 }, {
-  path: "/archive/tech-notes/go/Go语言slog日志库的基本使用指南.html",
-  redirect: "/archive/tech-notes/go/Go%E8%AF%AD%E8%A8%80slog%E6%97%A5%E5%BF%97%E5%BA%93%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97.html"
+  path: "/archive/tech-notes/go/Go语言slog日志库的认识.html",
+  redirect: "/archive/tech-notes/go/Go%E8%AF%AD%E8%A8%80slog%E6%97%A5%E5%BF%97%E5%BA%93%E7%9A%84%E8%AE%A4%E8%AF%86.html"
 }, {
   name: "v-45d5e92b",
   path: "/archive/tech-notes/go/Go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80.html",
@@ -4409,19 +4444,6 @@ const routes = [{
   path: "/archive/tech-notes/go/Go语言基础.html",
   redirect: "/archive/tech-notes/go/Go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80.html"
 }, {
-  name: "v-6986644c",
-  path: "/archive/tech-notes/go/Go%E8%AF%AD%E8%A8%80slog%E6%97%A5%E5%BF%97%E5%BA%93%E7%9A%84%E8%AE%A4%E8%AF%86.html",
-  component: _home_runner_work_notes_notes_node_modules_vuepress_core_lib_client_components_GlobalLayout_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
-  beforeEnter: (to, from, next) => {
-    Object(_app_util__WEBPACK_IMPORTED_MODULE_0__["ensureAsyncComponentsLoaded"])("Layout", "v-6986644c").then(next);
-  }
-}, {
-  path: "/archive/tech-notes/go/Go语言slog日志库的认识.html",
-  redirect: "/archive/tech-notes/go/Go%E8%AF%AD%E8%A8%80slog%E6%97%A5%E5%BF%97%E5%BA%93%E7%9A%84%E8%AE%A4%E8%AF%86.html"
-}, {
-  path: "/archive/tech-notes/go/Go语言slog日志库的认识.html",
-  redirect: "/archive/tech-notes/go/Go%E8%AF%AD%E8%A8%80slog%E6%97%A5%E5%BF%97%E5%BA%93%E7%9A%84%E8%AE%A4%E8%AF%86.html"
-}, {
   name: "v-3531c574",
   path: "/archive/tech-notes/go/Go%E8%AF%AD%E8%A8%80%E6%93%8D%E4%BD%9CMySQL%E6%95%B0%E6%8D%AE%E5%BA%93%E8%A1%A8.html",
   component: _home_runner_work_notes_notes_node_modules_vuepress_core_lib_client_components_GlobalLayout_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
@@ -4434,6 +4456,19 @@ const routes = [{
 }, {
   path: "/archive/tech-notes/go/Go语言操作MySQL数据库表.html",
   redirect: "/archive/tech-notes/go/Go%E8%AF%AD%E8%A8%80%E6%93%8D%E4%BD%9CMySQL%E6%95%B0%E6%8D%AE%E5%BA%93%E8%A1%A8.html"
+}, {
+  name: "v-18bbd53a",
+  path: "/archive/tech-notes/go/Go%E8%AF%AD%E8%A8%80slog%E6%97%A5%E5%BF%97%E5%BA%93%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97.html",
+  component: _home_runner_work_notes_notes_node_modules_vuepress_core_lib_client_components_GlobalLayout_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
+  beforeEnter: (to, from, next) => {
+    Object(_app_util__WEBPACK_IMPORTED_MODULE_0__["ensureAsyncComponentsLoaded"])("Layout", "v-18bbd53a").then(next);
+  }
+}, {
+  path: "/archive/tech-notes/go/Go语言slog日志库的基本使用指南.html",
+  redirect: "/archive/tech-notes/go/Go%E8%AF%AD%E8%A8%80slog%E6%97%A5%E5%BF%97%E5%BA%93%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97.html"
+}, {
+  path: "/archive/tech-notes/go/Go语言slog日志库的基本使用指南.html",
+  redirect: "/archive/tech-notes/go/Go%E8%AF%AD%E8%A8%80slog%E6%97%A5%E5%BF%97%E5%BA%93%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97.html"
 }, {
   name: "v-0cfb6b90",
   path: "/archive/tech-notes/go/%E4%BB%8E%E7%BB%A7%E6%89%BF%E4%BD%93%E7%B3%BB%E5%88%B0%E8%A1%8C%E4%B8%BA%E5%A5%91%E7%BA%A6%EF%BC%9AC++%E8%BD%ACGo%E7%9A%84%E6%8E%A5%E5%8F%A3%E7%BC%96%E7%A8%8B%E6%80%9D%E8%80%83.html",
@@ -4458,6 +4493,16 @@ const routes = [{
   path: "/archive/timeLine/index.html",
   redirect: "/archive/timeLine/"
 }, {
+  name: "v-10202a9c",
+  path: "/engineering/",
+  component: _home_runner_work_notes_notes_node_modules_vuepress_core_lib_client_components_GlobalLayout_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
+  beforeEnter: (to, from, next) => {
+    Object(_app_util__WEBPACK_IMPORTED_MODULE_0__["ensureAsyncComponentsLoaded"])("Layout", "v-10202a9c").then(next);
+  }
+}, {
+  path: "/engineering/index.html",
+  redirect: "/engineering/"
+}, {
   name: "v-c2378e6c",
   path: "/backend-tech/",
   component: _home_runner_work_notes_notes_node_modules_vuepress_core_lib_client_components_GlobalLayout_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
@@ -4468,15 +4513,15 @@ const routes = [{
   path: "/backend-tech/index.html",
   redirect: "/backend-tech/"
 }, {
-  name: "v-10202a9c",
-  path: "/engineering/",
+  name: "v-2b5cb0d0",
+  path: "/foundations/",
   component: _home_runner_work_notes_notes_node_modules_vuepress_core_lib_client_components_GlobalLayout_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
   beforeEnter: (to, from, next) => {
-    Object(_app_util__WEBPACK_IMPORTED_MODULE_0__["ensureAsyncComponentsLoaded"])("Layout", "v-10202a9c").then(next);
+    Object(_app_util__WEBPACK_IMPORTED_MODULE_0__["ensureAsyncComponentsLoaded"])("Layout", "v-2b5cb0d0").then(next);
   }
 }, {
-  path: "/engineering/index.html",
-  redirect: "/engineering/"
+  path: "/foundations/index.html",
+  redirect: "/foundations/"
 }, {
   name: "v-26a561b4",
   path: "/foundations/go-core/001-Go%E8%AF%AD%E8%A8%80%E5%8E%9F%E7%94%9F%E6%94%AF%E6%8C%81Unicode%E7%BC%96%E7%A0%81.html",
@@ -4491,15 +4536,15 @@ const routes = [{
   path: "/foundations/go-core/001-Go语言原生支持Unicode编码.html",
   redirect: "/foundations/go-core/001-Go%E8%AF%AD%E8%A8%80%E5%8E%9F%E7%94%9F%E6%94%AF%E6%8C%81Unicode%E7%BC%96%E7%A0%81.html"
 }, {
-  name: "v-2b5cb0d0",
-  path: "/foundations/",
+  name: "v-40ed47ee",
+  path: "/foundations/go-core/",
   component: _home_runner_work_notes_notes_node_modules_vuepress_core_lib_client_components_GlobalLayout_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
   beforeEnter: (to, from, next) => {
-    Object(_app_util__WEBPACK_IMPORTED_MODULE_0__["ensureAsyncComponentsLoaded"])("Layout", "v-2b5cb0d0").then(next);
+    Object(_app_util__WEBPACK_IMPORTED_MODULE_0__["ensureAsyncComponentsLoaded"])("Layout", "v-40ed47ee").then(next);
   }
 }, {
-  path: "/foundations/index.html",
-  redirect: "/foundations/"
+  path: "/foundations/go-core/index.html",
+  redirect: "/foundations/go-core/"
 }, {
   name: "v-0d21fa28",
   path: "/learning-plan/",
@@ -4531,16 +4576,6 @@ const routes = [{
   path: "/learning-plan/weekly/index.html",
   redirect: "/learning-plan/weekly/"
 }, {
-  name: "v-29777f0a",
-  path: "/learning-plan/yearly/",
-  component: _home_runner_work_notes_notes_node_modules_vuepress_core_lib_client_components_GlobalLayout_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
-  beforeEnter: (to, from, next) => {
-    Object(_app_util__WEBPACK_IMPORTED_MODULE_0__["ensureAsyncComponentsLoaded"])("Layout", "v-29777f0a").then(next);
-  }
-}, {
-  path: "/learning-plan/yearly/index.html",
-  redirect: "/learning-plan/yearly/"
-}, {
   name: "v-c15a0654",
   path: "/notes/",
   component: _home_runner_work_notes_notes_node_modules_vuepress_core_lib_client_components_GlobalLayout_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
@@ -4551,18 +4586,15 @@ const routes = [{
   path: "/notes/index.html",
   redirect: "/notes/"
 }, {
-  name: "v-68e570c0",
-  path: "/learning-plan/%E6%93%8D%E4%BD%9C%E6%96%87%E6%A1%A3.html",
+  name: "v-29777f0a",
+  path: "/learning-plan/yearly/",
   component: _home_runner_work_notes_notes_node_modules_vuepress_core_lib_client_components_GlobalLayout_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
   beforeEnter: (to, from, next) => {
-    Object(_app_util__WEBPACK_IMPORTED_MODULE_0__["ensureAsyncComponentsLoaded"])("Layout", "v-68e570c0").then(next);
+    Object(_app_util__WEBPACK_IMPORTED_MODULE_0__["ensureAsyncComponentsLoaded"])("Layout", "v-29777f0a").then(next);
   }
 }, {
-  path: "/learning-plan/操作文档.html",
-  redirect: "/learning-plan/%E6%93%8D%E4%BD%9C%E6%96%87%E6%A1%A3.html"
-}, {
-  path: "/learning-plan/操作文档.html",
-  redirect: "/learning-plan/%E6%93%8D%E4%BD%9C%E6%96%87%E6%A1%A3.html"
+  path: "/learning-plan/yearly/index.html",
+  redirect: "/learning-plan/yearly/"
 }, {
   name: "v-66f776ac",
   path: "/projects/",
@@ -4583,6 +4615,19 @@ const routes = [{
 }, {
   path: "/resources/index.html",
   redirect: "/resources/"
+}, {
+  name: "v-68e570c0",
+  path: "/learning-plan/%E6%93%8D%E4%BD%9C%E6%96%87%E6%A1%A3.html",
+  component: _home_runner_work_notes_notes_node_modules_vuepress_core_lib_client_components_GlobalLayout_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
+  beforeEnter: (to, from, next) => {
+    Object(_app_util__WEBPACK_IMPORTED_MODULE_0__["ensureAsyncComponentsLoaded"])("Layout", "v-68e570c0").then(next);
+  }
+}, {
+  path: "/learning-plan/操作文档.html",
+  redirect: "/learning-plan/%E6%93%8D%E4%BD%9C%E6%96%87%E6%A1%A3.html"
+}, {
+  path: "/learning-plan/操作文档.html",
+  redirect: "/learning-plan/%E6%93%8D%E4%BD%9C%E6%96%87%E6%A1%A3.html"
 }, {
   name: "v-7342480a",
   path: "/timeLine/",
@@ -4818,6 +4863,20 @@ const routes = [{
   path: "/tag/字符编码/index.html",
   redirect: "/tag/字符编码/"
 }, {
+  name: "v-b4ef82aa",
+  path: "/tag/编程语言/",
+  component: _home_runner_work_notes_notes_node_modules_vuepress_core_lib_client_components_GlobalLayout_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
+  beforeEnter: (to, from, next) => {
+    Object(_app_util__WEBPACK_IMPORTED_MODULE_0__["ensureAsyncComponentsLoaded"])("Tag", "v-b4ef82aa").then(next);
+  },
+  meta: {
+    "pid": "tags",
+    "id": "编程语言"
+  }
+}, {
+  path: "/tag/编程语言/index.html",
+  redirect: "/tag/编程语言/"
+}, {
   name: "v-0b8d3017",
   path: "/categories/Go语言核心/",
   component: _home_runner_work_notes_notes_node_modules_vuepress_core_lib_client_components_GlobalLayout_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
@@ -4929,6 +4988,20 @@ const routes = [{
 }, {
   path: "/categories/深入 Go 语言/index.html",
   redirect: "/categories/深入 Go 语言/"
+}, {
+  name: "v-b41e8034",
+  path: "/categories/基础知识/",
+  component: _home_runner_work_notes_notes_node_modules_vuepress_core_lib_client_components_GlobalLayout_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
+  beforeEnter: (to, from, next) => {
+    Object(_app_util__WEBPACK_IMPORTED_MODULE_0__["ensureAsyncComponentsLoaded"])("Category", "v-b41e8034").then(next);
+  },
+  meta: {
+    "pid": "categories",
+    "id": "基础知识"
+  }
+}, {
+  path: "/categories/基础知识/index.html",
+  redirect: "/categories/基础知识/"
 }, {
   name: "v-1ae6e1e0",
   path: "/tag/Go/page/2/",
@@ -5097,21 +5170,6 @@ const siteData = {
     "lastUpdated": "2025/12/22 21:26",
     "lastUpdatedTimestamp": 1766410019000
   }, {
-    "title": "欢迎来到我的知识库",
-    "frontmatter": {
-      "title": "欢迎来到我的知识库",
-      "author": "Satori2Core",
-      "date": "2025-6-2",
-      "lastUpdated": true,
-      "home": true
-    },
-    "regularPath": "/archive/",
-    "relativePath": "archive/README.md",
-    "key": "v-26cc84d4",
-    "path": "/archive/",
-    "lastUpdated": "2025/12/20 21:36",
-    "lastUpdatedTimestamp": 1766237771000
-  }, {
     "title": "个人简介",
     "frontmatter": {
       "title": "个人简介",
@@ -5154,6 +5212,21 @@ const siteData = {
     "lastUpdated": "2025/12/20 21:36",
     "lastUpdatedTimestamp": 1766237771000
   }, {
+    "title": "欢迎来到我的知识库",
+    "frontmatter": {
+      "title": "欢迎来到我的知识库",
+      "author": "Satori2Core",
+      "date": "2025-6-2",
+      "lastUpdated": true,
+      "home": true
+    },
+    "regularPath": "/archive/",
+    "relativePath": "archive/README.md",
+    "key": "v-26cc84d4",
+    "path": "/archive/",
+    "lastUpdated": "2025/12/20 21:36",
+    "lastUpdatedTimestamp": 1766237771000
+  }, {
     "title": "空文章框架模板",
     "frontmatter": {
       "title": "空文章框架模板",
@@ -5169,30 +5242,6 @@ const siteData = {
       "level": 2,
       "title": "关于 Front Matter 字段",
       "slug": "关于-front-matter-字段"
-    }],
-    "lastUpdated": "2025/12/20 21:36",
-    "lastUpdatedTimestamp": 1766237771000
-  }, {
-    "title": "知识库简介与更新计划",
-    "frontmatter": {
-      "title": "知识库简介与更新计划",
-      "author": "Satori2Core",
-      "date": "2025-6-3",
-      "lastUpdated": "2025/6/5 21:00:00",
-      "sticky": 1
-    },
-    "regularPath": "/archive/categories/%E5%85%B3%E4%BA%8E%E6%9B%B4%E6%96%B0%E8%AE%A1%E5%88%92.html",
-    "relativePath": "archive/categories/关于更新计划.md",
-    "key": "v-d591b004",
-    "path": "/archive/categories/%E5%85%B3%E4%BA%8E%E6%9B%B4%E6%96%B0%E8%AE%A1%E5%88%92.html",
-    "headers": [{
-      "level": 2,
-      "title": "第一阶段：开发技能储备",
-      "slug": "第一阶段-开发技能储备"
-    }, {
-      "level": 2,
-      "title": "第二阶段：Go语言项目开发（一）",
-      "slug": "第二阶段-go语言项目开发-一"
     }],
     "lastUpdated": "2025/12/20 21:36",
     "lastUpdatedTimestamp": 1766237771000
@@ -5429,51 +5478,29 @@ const siteData = {
     "lastUpdated": "2025/12/20 21:36",
     "lastUpdatedTimestamp": 1766237771000
   }, {
-    "title": "【项目开发】Cobra 命令与参数",
+    "title": "知识库简介与更新计划",
     "frontmatter": {
-      "title": "【项目开发】Cobra 命令与参数",
-      "date": "2025-6-15",
-      "sidebar": "auto",
-      "categories": ["Cobra"],
-      "tags": ["Go项目开发", "Go", "Cobra", "环境搭建"],
-      "publish": true,
-      "lastUpdated": "2025/6/23 21:00:00"
+      "title": "知识库简介与更新计划",
+      "author": "Satori2Core",
+      "date": "2025-6-3",
+      "lastUpdated": "2025/6/5 21:00:00",
+      "sticky": 1
     },
-    "regularPath": "/archive/projects/%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%8F%91%E4%B9%8BCobra%E5%91%BD%E4%BB%A4%E4%B8%8E%E5%8F%82%E6%95%B0.html",
-    "relativePath": "archive/projects/项目开发之Cobra命令与参数.md",
-    "key": "v-401b0f81",
-    "path": "/archive/projects/%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%8F%91%E4%B9%8BCobra%E5%91%BD%E4%BB%A4%E4%B8%8E%E5%8F%82%E6%95%B0.html",
+    "regularPath": "/archive/categories/%E5%85%B3%E4%BA%8E%E6%9B%B4%E6%96%B0%E8%AE%A1%E5%88%92.html",
+    "relativePath": "archive/categories/关于更新计划.md",
+    "key": "v-d591b004",
+    "path": "/archive/categories/%E5%85%B3%E4%BA%8E%E6%9B%B4%E6%96%B0%E8%AE%A1%E5%88%92.html",
     "headers": [{
       "level": 2,
-      "title": "Cobra 命令与参数",
-      "slug": "cobra-命令与参数"
+      "title": "第一阶段：开发技能储备",
+      "slug": "第一阶段-开发技能储备"
     }, {
-      "level": 3,
-      "title": "1. 基本认识",
-      "slug": "_1-基本认识"
-    }, {
-      "level": 3,
-      "title": "2. 参数类型与解析方法认识",
-      "slug": "_2-参数类型与解析方法认识"
-    }, {
-      "level": 3,
-      "title": "3. 命令参数的简单认识与使用",
-      "slug": "_3-命令参数的简单认识与使用"
-    }, {
-      "level": 3,
-      "title": "4. 参数类型及使用示例",
-      "slug": "_4-参数类型及使用示例"
-    }, {
-      "level": 3,
-      "title": "5. 关键参数功能 —— 特殊情景",
-      "slug": "_5-关键参数功能-特殊情景"
-    }, {
-      "level": 3,
-      "title": "6. 参数使用流程图",
-      "slug": "_6-参数使用流程图"
+      "level": 2,
+      "title": "第二阶段：Go语言项目开发（一）",
+      "slug": "第二阶段-go语言项目开发-一"
     }],
-    "lastUpdated": "2025/12/20 22:20",
-    "lastUpdatedTimestamp": 1766240412000
+    "lastUpdated": "2025/12/20 21:36",
+    "lastUpdatedTimestamp": 1766237771000
   }, {
     "title": "【环境搭建】项目开发数据库选择指南：从类型特性到实战决策 —— Mysql&Redis",
     "frontmatter": {
@@ -5562,6 +5589,52 @@ const siteData = {
     "lastUpdated": "2025/12/20 22:20",
     "lastUpdatedTimestamp": 1766240412000
   }, {
+    "title": "【项目开发】Cobra 命令与参数",
+    "frontmatter": {
+      "title": "【项目开发】Cobra 命令与参数",
+      "date": "2025-6-15",
+      "sidebar": "auto",
+      "categories": ["Cobra"],
+      "tags": ["Go项目开发", "Go", "Cobra", "环境搭建"],
+      "publish": true,
+      "lastUpdated": "2025/6/23 21:00:00"
+    },
+    "regularPath": "/archive/projects/%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%8F%91%E4%B9%8BCobra%E5%91%BD%E4%BB%A4%E4%B8%8E%E5%8F%82%E6%95%B0.html",
+    "relativePath": "archive/projects/项目开发之Cobra命令与参数.md",
+    "key": "v-401b0f81",
+    "path": "/archive/projects/%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%8F%91%E4%B9%8BCobra%E5%91%BD%E4%BB%A4%E4%B8%8E%E5%8F%82%E6%95%B0.html",
+    "headers": [{
+      "level": 2,
+      "title": "Cobra 命令与参数",
+      "slug": "cobra-命令与参数"
+    }, {
+      "level": 3,
+      "title": "1. 基本认识",
+      "slug": "_1-基本认识"
+    }, {
+      "level": 3,
+      "title": "2. 参数类型与解析方法认识",
+      "slug": "_2-参数类型与解析方法认识"
+    }, {
+      "level": 3,
+      "title": "3. 命令参数的简单认识与使用",
+      "slug": "_3-命令参数的简单认识与使用"
+    }, {
+      "level": 3,
+      "title": "4. 参数类型及使用示例",
+      "slug": "_4-参数类型及使用示例"
+    }, {
+      "level": 3,
+      "title": "5. 关键参数功能 —— 特殊情景",
+      "slug": "_5-关键参数功能-特殊情景"
+    }, {
+      "level": 3,
+      "title": "6. 参数使用流程图",
+      "slug": "_6-参数使用流程图"
+    }],
+    "lastUpdated": "2025/12/20 22:20",
+    "lastUpdatedTimestamp": 1766240412000
+  }, {
     "title": "【项目开发】Cobra 简单认识与使用",
     "frontmatter": {
       "title": "【项目开发】Cobra 简单认识与使用",
@@ -5612,6 +5685,105 @@ const siteData = {
       "level": 3,
       "title": "4. 必看小结",
       "slug": "_4-必看小结"
+    }],
+    "lastUpdated": "2025/12/20 22:20",
+    "lastUpdatedTimestamp": 1766240412000
+  }, {
+    "title": "【项目开发】团队开发的基石 —— Git分支管理：从基础到实战（创建、切换、合并[冲突]、挑合）",
+    "frontmatter": {
+      "title": "【项目开发】团队开发的基石 —— Git分支管理：从基础到实战（创建、切换、合并[冲突]、挑合）",
+      "date": "2025-6-7",
+      "sidebar": "auto",
+      "categories": ["Git"],
+      "tags": ["项目", "Git", "环境搭建"],
+      "publish": true,
+      "sticky": 6,
+      "lastUpdated": "2025/6/9 21:00:00"
+    },
+    "regularPath": "/archive/projects/%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%8F%91%E4%B9%8BGit%E5%88%86%E6%94%AF%E7%AE%A1%E7%90%86.html",
+    "relativePath": "archive/projects/项目开发之Git分支管理.md",
+    "key": "v-7ae32a78",
+    "path": "/archive/projects/%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%8F%91%E4%B9%8BGit%E5%88%86%E6%94%AF%E7%AE%A1%E7%90%86.html",
+    "headers": [{
+      "level": 2,
+      "title": "0. 前言",
+      "slug": "_0-前言"
+    }, {
+      "level": 2,
+      "title": "1. 为什么需要分支？",
+      "slug": "_1-为什么需要分支"
+    }, {
+      "level": 2,
+      "title": "2. 分支的基础操作 —— 创建与切换",
+      "slug": "_2-分支的基础操作-创建与切换"
+    }, {
+      "level": 3,
+      "title": "2.1 查看当前分支",
+      "slug": "_2-1-查看当前分支"
+    }, {
+      "level": 3,
+      "title": "2.2 创建新分支",
+      "slug": "_2-2-创建新分支"
+    }, {
+      "level": 3,
+      "title": "2.3 切换分支",
+      "slug": "_2-3-切换分支"
+    }, {
+      "level": 3,
+      "title": "2.4 查看所有分支",
+      "slug": "_2-4-查看所有分支"
+    }, {
+      "level": 3,
+      "title": "2.5 删除分支",
+      "slug": "_2-5-删除分支"
+    }, {
+      "level": 2,
+      "title": "3. 分支合并：将分支代码整合到主分支",
+      "slug": "_3-分支合并-将分支代码整合到主分支"
+    }, {
+      "level": 3,
+      "title": "3.1 合并前的准备（重要！！！）",
+      "slug": "_3-1-合并前的准备-重要"
+    }, {
+      "level": 3,
+      "title": "3.2 执行合并",
+      "slug": "_3-2-执行合并"
+    }, {
+      "level": 3,
+      "title": "3.3 合并冲突（Merge Conflict）​",
+      "slug": "_3-3-合并冲突-merge-conflict-​"
+    }, {
+      "level": 3,
+      "title": "3.4 冲突解决步骤",
+      "slug": "_3-4-冲突解决步骤"
+    }, {
+      "level": 2,
+      "title": "4. 挑合（Cherry-pick）：选择特定提交合并",
+      "slug": "_4-挑合-cherry-pick-选择特定提交合并"
+    }, {
+      "level": 3,
+      "title": "4.1 挑合是什么？",
+      "slug": "_4-1-挑合是什么"
+    }, {
+      "level": 3,
+      "title": "4.2 挑合的基本操作",
+      "slug": "_4-2-挑合的基本操作"
+    }, {
+      "level": 3,
+      "title": "4.3 操作示例",
+      "slug": "_4-3-操作示例"
+    }, {
+      "level": 3,
+      "title": "4.4 补充说明",
+      "slug": "_4-4-补充说明"
+    }, {
+      "level": 3,
+      "title": "4.5 注意事项​",
+      "slug": "_4-5-注意事项​"
+    }, {
+      "level": 2,
+      "title": "5. 本文 Git 分支管理指令总结",
+      "slug": "_5-本文-git-分支管理指令总结"
     }],
     "lastUpdated": "2025/12/20 22:20",
     "lastUpdatedTimestamp": 1766240412000
@@ -5858,6 +6030,36 @@ const siteData = {
     "lastUpdated": "2025/12/20 21:36",
     "lastUpdatedTimestamp": 1766237771000
   }, {
+    "title": "【Go语言基础】Go语言 & MySQL数据库 —— SQLx 库：使用指南",
+    "frontmatter": {
+      "title": "【Go语言基础】Go语言 & MySQL数据库 —— SQLx 库：使用指南",
+      "date": "2025-6-7",
+      "sidebar": "auto",
+      "categories": ["Go语言基础"],
+      "tags": ["Go", "项目", "环境搭建"],
+      "publish": true,
+      "lastUpdated": "2025/6/8 21:00:00"
+    },
+    "regularPath": "/archive/tech-notes/go/Go%E8%AF%AD%E8%A8%80MySQL%E6%95%B0%E6%8D%AE%E6%93%8D%E4%BD%9C%E4%B8%89.html",
+    "relativePath": "archive/tech-notes/go/Go语言MySQL数据操作三.md",
+    "key": "v-0f2c6a0c",
+    "path": "/archive/tech-notes/go/Go%E8%AF%AD%E8%A8%80MySQL%E6%95%B0%E6%8D%AE%E6%93%8D%E4%BD%9C%E4%B8%89.html",
+    "headers": [{
+      "level": 2,
+      "title": "安装与初始化",
+      "slug": "安装与初始化"
+    }, {
+      "level": 3,
+      "title": "1. 安装依赖",
+      "slug": "_1-安装依赖"
+    }, {
+      "level": 3,
+      "title": "2. 初始化数据库连接",
+      "slug": "_2-初始化数据库连接"
+    }],
+    "lastUpdated": "2025/12/20 21:36",
+    "lastUpdatedTimestamp": 1766237771000
+  }, {
     "title": "【Go语言基础】Go语言 & MySQL数据库 —— 数据操作：无上下文 Context",
     "frontmatter": {
       "title": "【Go语言基础】Go语言 & MySQL数据库 —— 数据操作：无上下文 Context",
@@ -5900,135 +6102,6 @@ const siteData = {
     "lastUpdated": "2025/12/20 22:20",
     "lastUpdatedTimestamp": 1766240412000
   }, {
-    "title": "【项目开发】团队开发的基石 —— Git分支管理：从基础到实战（创建、切换、合并[冲突]、挑合）",
-    "frontmatter": {
-      "title": "【项目开发】团队开发的基石 —— Git分支管理：从基础到实战（创建、切换、合并[冲突]、挑合）",
-      "date": "2025-6-7",
-      "sidebar": "auto",
-      "categories": ["Git"],
-      "tags": ["项目", "Git", "环境搭建"],
-      "publish": true,
-      "sticky": 6,
-      "lastUpdated": "2025/6/9 21:00:00"
-    },
-    "regularPath": "/archive/projects/%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%8F%91%E4%B9%8BGit%E5%88%86%E6%94%AF%E7%AE%A1%E7%90%86.html",
-    "relativePath": "archive/projects/项目开发之Git分支管理.md",
-    "key": "v-7ae32a78",
-    "path": "/archive/projects/%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%8F%91%E4%B9%8BGit%E5%88%86%E6%94%AF%E7%AE%A1%E7%90%86.html",
-    "headers": [{
-      "level": 2,
-      "title": "0. 前言",
-      "slug": "_0-前言"
-    }, {
-      "level": 2,
-      "title": "1. 为什么需要分支？",
-      "slug": "_1-为什么需要分支"
-    }, {
-      "level": 2,
-      "title": "2. 分支的基础操作 —— 创建与切换",
-      "slug": "_2-分支的基础操作-创建与切换"
-    }, {
-      "level": 3,
-      "title": "2.1 查看当前分支",
-      "slug": "_2-1-查看当前分支"
-    }, {
-      "level": 3,
-      "title": "2.2 创建新分支",
-      "slug": "_2-2-创建新分支"
-    }, {
-      "level": 3,
-      "title": "2.3 切换分支",
-      "slug": "_2-3-切换分支"
-    }, {
-      "level": 3,
-      "title": "2.4 查看所有分支",
-      "slug": "_2-4-查看所有分支"
-    }, {
-      "level": 3,
-      "title": "2.5 删除分支",
-      "slug": "_2-5-删除分支"
-    }, {
-      "level": 2,
-      "title": "3. 分支合并：将分支代码整合到主分支",
-      "slug": "_3-分支合并-将分支代码整合到主分支"
-    }, {
-      "level": 3,
-      "title": "3.1 合并前的准备（重要！！！）",
-      "slug": "_3-1-合并前的准备-重要"
-    }, {
-      "level": 3,
-      "title": "3.2 执行合并",
-      "slug": "_3-2-执行合并"
-    }, {
-      "level": 3,
-      "title": "3.3 合并冲突（Merge Conflict）​",
-      "slug": "_3-3-合并冲突-merge-conflict-​"
-    }, {
-      "level": 3,
-      "title": "3.4 冲突解决步骤",
-      "slug": "_3-4-冲突解决步骤"
-    }, {
-      "level": 2,
-      "title": "4. 挑合（Cherry-pick）：选择特定提交合并",
-      "slug": "_4-挑合-cherry-pick-选择特定提交合并"
-    }, {
-      "level": 3,
-      "title": "4.1 挑合是什么？",
-      "slug": "_4-1-挑合是什么"
-    }, {
-      "level": 3,
-      "title": "4.2 挑合的基本操作",
-      "slug": "_4-2-挑合的基本操作"
-    }, {
-      "level": 3,
-      "title": "4.3 操作示例",
-      "slug": "_4-3-操作示例"
-    }, {
-      "level": 3,
-      "title": "4.4 补充说明",
-      "slug": "_4-4-补充说明"
-    }, {
-      "level": 3,
-      "title": "4.5 注意事项​",
-      "slug": "_4-5-注意事项​"
-    }, {
-      "level": 2,
-      "title": "5. 本文 Git 分支管理指令总结",
-      "slug": "_5-本文-git-分支管理指令总结"
-    }],
-    "lastUpdated": "2025/12/20 22:20",
-    "lastUpdatedTimestamp": 1766240412000
-  }, {
-    "title": "【Go语言基础】Go语言 & MySQL数据库 —— SQLx 库：使用指南",
-    "frontmatter": {
-      "title": "【Go语言基础】Go语言 & MySQL数据库 —— SQLx 库：使用指南",
-      "date": "2025-6-7",
-      "sidebar": "auto",
-      "categories": ["Go语言基础"],
-      "tags": ["Go", "项目", "环境搭建"],
-      "publish": true,
-      "lastUpdated": "2025/6/8 21:00:00"
-    },
-    "regularPath": "/archive/tech-notes/go/Go%E8%AF%AD%E8%A8%80MySQL%E6%95%B0%E6%8D%AE%E6%93%8D%E4%BD%9C%E4%B8%89.html",
-    "relativePath": "archive/tech-notes/go/Go语言MySQL数据操作三.md",
-    "key": "v-0f2c6a0c",
-    "path": "/archive/tech-notes/go/Go%E8%AF%AD%E8%A8%80MySQL%E6%95%B0%E6%8D%AE%E6%93%8D%E4%BD%9C%E4%B8%89.html",
-    "headers": [{
-      "level": 2,
-      "title": "安装与初始化",
-      "slug": "安装与初始化"
-    }, {
-      "level": 3,
-      "title": "1. 安装依赖",
-      "slug": "_1-安装依赖"
-    }, {
-      "level": 3,
-      "title": "2. 初始化数据库连接",
-      "slug": "_2-初始化数据库连接"
-    }],
-    "lastUpdated": "2025/12/20 21:36",
-    "lastUpdatedTimestamp": 1766237771000
-  }, {
     "title": "【Go语言基础】Go语言 & MySQL数据库 —— 数据操作 & Context",
     "frontmatter": {
       "title": "【Go语言基础】Go语言 & MySQL数据库 —— 数据操作 & Context",
@@ -6070,6 +6143,159 @@ const siteData = {
     }],
     "lastUpdated": "2025/12/20 22:20",
     "lastUpdatedTimestamp": 1766240412000
+  }, {
+    "title": "【Go语言基础】Go 语言结构化日志库 log/slog 的基本认识与源码浅析",
+    "frontmatter": {
+      "title": "【Go语言基础】Go 语言结构化日志库 log/slog 的基本认识与源码浅析",
+      "date": "2025-6-7",
+      "sidebar": "auto",
+      "categories": ["Go语言基础"],
+      "tags": ["Go", "项目"],
+      "publish": true,
+      "sticky": 4,
+      "lastUpdated": "2025/6/8 21:00:00"
+    },
+    "regularPath": "/archive/tech-notes/go/Go%E8%AF%AD%E8%A8%80slog%E6%97%A5%E5%BF%97%E5%BA%93%E7%9A%84%E8%AE%A4%E8%AF%86.html",
+    "relativePath": "archive/tech-notes/go/Go语言slog日志库的认识.md",
+    "key": "v-6986644c",
+    "path": "/archive/tech-notes/go/Go%E8%AF%AD%E8%A8%80slog%E6%97%A5%E5%BF%97%E5%BA%93%E7%9A%84%E8%AE%A4%E8%AF%86.html",
+    "headers": [{
+      "level": 2,
+      "title": "前言",
+      "slug": "前言"
+    }, {
+      "level": 2,
+      "title": "一、什么是结构化日志",
+      "slug": "一、什么是结构化日志"
+    }, {
+      "level": 2,
+      "title": "二、slog 与 三方库",
+      "slug": "二、slog-与-三方库"
+    }, {
+      "level": 3,
+      "title": "1. slog 日志库特性",
+      "slug": "_1-slog-日志库特性"
+    }, {
+      "level": 3,
+      "title": "2. slog vs 第三方库（核心区别）",
+      "slug": "_2-slog-vs-第三方库-核心区别"
+    }, {
+      "level": 3,
+      "title": "3. 注意事项",
+      "slug": "_3-注意事项"
+    }, {
+      "level": 2,
+      "title": "三、slog 核心组件 与 源码浅析",
+      "slug": "三、slog-核心组件-与-源码浅析"
+    }, {
+      "level": 3,
+      "title": "1. 四大核心组件关联图",
+      "slug": "_1-四大核心组件关联图"
+    }, {
+      "level": 3,
+      "title": "2. Logger：日志记录的门面",
+      "slug": "_2-logger-日志记录的门面"
+    }, {
+      "level": 3,
+      "title": "3. Handler 接口：处理器",
+      "slug": "_3-handler-接口-处理器"
+    }, {
+      "level": 3,
+      "title": "4. Record：日志数据的原子单元",
+      "slug": "_4-record-日志数据的原子单元"
+    }],
+    "lastUpdated": "2025/12/20 21:36",
+    "lastUpdatedTimestamp": 1766237771000
+  }, {
+    "title": "Go 语言基础",
+    "frontmatter": {
+      "title": "Go 语言基础",
+      "date": "2025-6-3",
+      "sidebar": "auto",
+      "categories": ["深入 Go 语言"],
+      "tags": ["Go"],
+      "publish": true
+    },
+    "regularPath": "/archive/tech-notes/go/Go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80.html",
+    "relativePath": "archive/tech-notes/go/Go语言基础.md",
+    "key": "v-45d5e92b",
+    "path": "/archive/tech-notes/go/Go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80.html",
+    "lastUpdated": "2025/12/20 21:36",
+    "lastUpdatedTimestamp": 1766237771000
+  }, {
+    "title": "【Go语言基础】Go语言 & MySQL数据库 —— 库/表操作",
+    "frontmatter": {
+      "title": "【Go语言基础】Go语言 & MySQL数据库 —— 库/表操作",
+      "date": "2025-6-7",
+      "sidebar": "auto",
+      "categories": ["Go语言基础"],
+      "tags": ["Go", "项目", "环境搭建"],
+      "publish": true,
+      "lastUpdated": "2025/6/8 21:00:00"
+    },
+    "regularPath": "/archive/tech-notes/go/Go%E8%AF%AD%E8%A8%80%E6%93%8D%E4%BD%9CMySQL%E6%95%B0%E6%8D%AE%E5%BA%93%E8%A1%A8.html",
+    "relativePath": "archive/tech-notes/go/Go语言操作MySQL数据库表.md",
+    "key": "v-3531c574",
+    "path": "/archive/tech-notes/go/Go%E8%AF%AD%E8%A8%80%E6%93%8D%E4%BD%9CMySQL%E6%95%B0%E6%8D%AE%E5%BA%93%E8%A1%A8.html",
+    "headers": [{
+      "level": 2,
+      "title": "前置要求",
+      "slug": "前置要求"
+    }, {
+      "level": 3,
+      "title": "1. MySQL 安装",
+      "slug": "_1-mysql-安装"
+    }, {
+      "level": 3,
+      "title": "2. 新建一个测试用户与权限分配",
+      "slug": "_2-新建一个测试用户与权限分配"
+    }, {
+      "level": 2,
+      "title": "驱动安装与数据库基本连接",
+      "slug": "驱动安装与数据库基本连接"
+    }, {
+      "level": 3,
+      "title": "1. 安装 MySQL 驱动（Go包）",
+      "slug": "_1-安装-mysql-驱动-go包"
+    }, {
+      "level": 3,
+      "title": "2. Go 程序中的基础连接设置",
+      "slug": "_2-go-程序中的基础连接设置"
+    }, {
+      "level": 2,
+      "title": "Go 操作数据库",
+      "slug": "go-操作数据库"
+    }, {
+      "level": 3,
+      "title": "1. 创建/删除数据表",
+      "slug": "_1-创建-删除数据表"
+    }, {
+      "level": 3,
+      "title": "2. 操作效果演示",
+      "slug": "_2-操作效果演示"
+    }, {
+      "level": 2,
+      "title": "Go 操作数据表",
+      "slug": "go-操作数据表"
+    }, {
+      "level": 3,
+      "title": "1. 创建/删除数据表",
+      "slug": "_1-创建-删除数据表-2"
+    }, {
+      "level": 3,
+      "title": "2. 数据表列操作（增删改）",
+      "slug": "_2-数据表列操作-增删改"
+    }, {
+      "level": 3,
+      "title": "3. 数据表索引操作",
+      "slug": "_3-数据表索引操作"
+    }, {
+      "level": 3,
+      "title": "4. 综合操作演示",
+      "slug": "_4-综合操作演示"
+    }],
+    "lastUpdated": "2025/12/20 21:36",
+    "lastUpdatedTimestamp": 1766237771000
   }, {
     "title": "【Go语言基础】Go 语言结构化日志库 log/slog 使用指南",
     "frontmatter": {
@@ -6149,159 +6375,6 @@ const siteData = {
       "level": 3,
       "title": "全局函数适用场景​：",
       "slug": "全局函数适用场景​"
-    }],
-    "lastUpdated": "2025/12/20 21:36",
-    "lastUpdatedTimestamp": 1766237771000
-  }, {
-    "title": "Go 语言基础",
-    "frontmatter": {
-      "title": "Go 语言基础",
-      "date": "2025-6-3",
-      "sidebar": "auto",
-      "categories": ["深入 Go 语言"],
-      "tags": ["Go"],
-      "publish": true
-    },
-    "regularPath": "/archive/tech-notes/go/Go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80.html",
-    "relativePath": "archive/tech-notes/go/Go语言基础.md",
-    "key": "v-45d5e92b",
-    "path": "/archive/tech-notes/go/Go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80.html",
-    "lastUpdated": "2025/12/20 21:36",
-    "lastUpdatedTimestamp": 1766237771000
-  }, {
-    "title": "【Go语言基础】Go 语言结构化日志库 log/slog 的基本认识与源码浅析",
-    "frontmatter": {
-      "title": "【Go语言基础】Go 语言结构化日志库 log/slog 的基本认识与源码浅析",
-      "date": "2025-6-7",
-      "sidebar": "auto",
-      "categories": ["Go语言基础"],
-      "tags": ["Go", "项目"],
-      "publish": true,
-      "sticky": 4,
-      "lastUpdated": "2025/6/8 21:00:00"
-    },
-    "regularPath": "/archive/tech-notes/go/Go%E8%AF%AD%E8%A8%80slog%E6%97%A5%E5%BF%97%E5%BA%93%E7%9A%84%E8%AE%A4%E8%AF%86.html",
-    "relativePath": "archive/tech-notes/go/Go语言slog日志库的认识.md",
-    "key": "v-6986644c",
-    "path": "/archive/tech-notes/go/Go%E8%AF%AD%E8%A8%80slog%E6%97%A5%E5%BF%97%E5%BA%93%E7%9A%84%E8%AE%A4%E8%AF%86.html",
-    "headers": [{
-      "level": 2,
-      "title": "前言",
-      "slug": "前言"
-    }, {
-      "level": 2,
-      "title": "一、什么是结构化日志",
-      "slug": "一、什么是结构化日志"
-    }, {
-      "level": 2,
-      "title": "二、slog 与 三方库",
-      "slug": "二、slog-与-三方库"
-    }, {
-      "level": 3,
-      "title": "1. slog 日志库特性",
-      "slug": "_1-slog-日志库特性"
-    }, {
-      "level": 3,
-      "title": "2. slog vs 第三方库（核心区别）",
-      "slug": "_2-slog-vs-第三方库-核心区别"
-    }, {
-      "level": 3,
-      "title": "3. 注意事项",
-      "slug": "_3-注意事项"
-    }, {
-      "level": 2,
-      "title": "三、slog 核心组件 与 源码浅析",
-      "slug": "三、slog-核心组件-与-源码浅析"
-    }, {
-      "level": 3,
-      "title": "1. 四大核心组件关联图",
-      "slug": "_1-四大核心组件关联图"
-    }, {
-      "level": 3,
-      "title": "2. Logger：日志记录的门面",
-      "slug": "_2-logger-日志记录的门面"
-    }, {
-      "level": 3,
-      "title": "3. Handler 接口：处理器",
-      "slug": "_3-handler-接口-处理器"
-    }, {
-      "level": 3,
-      "title": "4. Record：日志数据的原子单元",
-      "slug": "_4-record-日志数据的原子单元"
-    }],
-    "lastUpdated": "2025/12/20 21:36",
-    "lastUpdatedTimestamp": 1766237771000
-  }, {
-    "title": "【Go语言基础】Go语言 & MySQL数据库 —— 库/表操作",
-    "frontmatter": {
-      "title": "【Go语言基础】Go语言 & MySQL数据库 —— 库/表操作",
-      "date": "2025-6-7",
-      "sidebar": "auto",
-      "categories": ["Go语言基础"],
-      "tags": ["Go", "项目", "环境搭建"],
-      "publish": true,
-      "lastUpdated": "2025/6/8 21:00:00"
-    },
-    "regularPath": "/archive/tech-notes/go/Go%E8%AF%AD%E8%A8%80%E6%93%8D%E4%BD%9CMySQL%E6%95%B0%E6%8D%AE%E5%BA%93%E8%A1%A8.html",
-    "relativePath": "archive/tech-notes/go/Go语言操作MySQL数据库表.md",
-    "key": "v-3531c574",
-    "path": "/archive/tech-notes/go/Go%E8%AF%AD%E8%A8%80%E6%93%8D%E4%BD%9CMySQL%E6%95%B0%E6%8D%AE%E5%BA%93%E8%A1%A8.html",
-    "headers": [{
-      "level": 2,
-      "title": "前置要求",
-      "slug": "前置要求"
-    }, {
-      "level": 3,
-      "title": "1. MySQL 安装",
-      "slug": "_1-mysql-安装"
-    }, {
-      "level": 3,
-      "title": "2. 新建一个测试用户与权限分配",
-      "slug": "_2-新建一个测试用户与权限分配"
-    }, {
-      "level": 2,
-      "title": "驱动安装与数据库基本连接",
-      "slug": "驱动安装与数据库基本连接"
-    }, {
-      "level": 3,
-      "title": "1. 安装 MySQL 驱动（Go包）",
-      "slug": "_1-安装-mysql-驱动-go包"
-    }, {
-      "level": 3,
-      "title": "2. Go 程序中的基础连接设置",
-      "slug": "_2-go-程序中的基础连接设置"
-    }, {
-      "level": 2,
-      "title": "Go 操作数据库",
-      "slug": "go-操作数据库"
-    }, {
-      "level": 3,
-      "title": "1. 创建/删除数据表",
-      "slug": "_1-创建-删除数据表"
-    }, {
-      "level": 3,
-      "title": "2. 操作效果演示",
-      "slug": "_2-操作效果演示"
-    }, {
-      "level": 2,
-      "title": "Go 操作数据表",
-      "slug": "go-操作数据表"
-    }, {
-      "level": 3,
-      "title": "1. 创建/删除数据表",
-      "slug": "_1-创建-删除数据表-2"
-    }, {
-      "level": 3,
-      "title": "2. 数据表列操作（增删改）",
-      "slug": "_2-数据表列操作-增删改"
-    }, {
-      "level": 3,
-      "title": "3. 数据表索引操作",
-      "slug": "_3-数据表索引操作"
-    }, {
-      "level": 3,
-      "title": "4. 综合操作演示",
-      "slug": "_4-综合操作演示"
     }],
     "lastUpdated": "2025/12/20 21:36",
     "lastUpdatedTimestamp": 1766237771000
@@ -6397,6 +6470,48 @@ const siteData = {
     "lastUpdated": "2025/12/20 21:36",
     "lastUpdatedTimestamp": 1766237771000
   }, {
+    "title": "工程实践",
+    "frontmatter": {},
+    "regularPath": "/engineering/",
+    "relativePath": "engineering/README.md",
+    "key": "v-10202a9c",
+    "path": "/engineering/",
+    "headers": [{
+      "level": 2,
+      "title": "🔧 工程实践概述",
+      "slug": "🔧-工程实践概述"
+    }, {
+      "level": 2,
+      "title": "📖 实践体系",
+      "slug": "📖-实践体系"
+    }, {
+      "level": 3,
+      "title": "代码设计",
+      "slug": "代码设计"
+    }, {
+      "level": 3,
+      "title": "测试",
+      "slug": "测试"
+    }, {
+      "level": 3,
+      "title": "CI/CD",
+      "slug": "ci-cd"
+    }, {
+      "level": 3,
+      "title": "架构设计",
+      "slug": "架构设计"
+    }, {
+      "level": 2,
+      "title": "💡 学习建议",
+      "slug": "💡-学习建议"
+    }, {
+      "level": 2,
+      "title": "🚀 开始学习",
+      "slug": "🚀-开始学习"
+    }],
+    "lastUpdated": "2025/12/20 21:36",
+    "lastUpdatedTimestamp": 1766237771000
+  }, {
     "title": "后端技术",
     "frontmatter": {},
     "regularPath": "/backend-tech/",
@@ -6443,36 +6558,32 @@ const siteData = {
     "lastUpdated": "2025/12/20 21:36",
     "lastUpdatedTimestamp": 1766237771000
   }, {
-    "title": "工程实践",
+    "title": "基础知识",
     "frontmatter": {},
-    "regularPath": "/engineering/",
-    "relativePath": "engineering/README.md",
-    "key": "v-10202a9c",
-    "path": "/engineering/",
+    "regularPath": "/foundations/",
+    "relativePath": "foundations/README.md",
+    "key": "v-2b5cb0d0",
+    "path": "/foundations/",
     "headers": [{
       "level": 2,
-      "title": "🔧 工程实践概述",
-      "slug": "🔧-工程实践概述"
+      "title": "📚 基础知识概述",
+      "slug": "📚-基础知识概述"
     }, {
       "level": 2,
-      "title": "📖 实践体系",
-      "slug": "📖-实践体系"
+      "title": "📖 知识体系",
+      "slug": "📖-知识体系"
     }, {
       "level": 3,
-      "title": "代码设计",
-      "slug": "代码设计"
+      "title": "Go语言核心",
+      "slug": "go语言核心"
     }, {
       "level": 3,
-      "title": "测试",
-      "slug": "测试"
+      "title": "数据结构",
+      "slug": "数据结构"
     }, {
       "level": 3,
-      "title": "CI/CD",
-      "slug": "ci-cd"
-    }, {
-      "level": 3,
-      "title": "架构设计",
-      "slug": "架构设计"
+      "title": "算法",
+      "slug": "算法"
     }, {
       "level": 2,
       "title": "💡 学习建议",
@@ -6546,43 +6657,22 @@ const siteData = {
     "lastUpdated": "2025/12/22 21:26",
     "lastUpdatedTimestamp": 1766410019000
   }, {
-    "title": "基础知识",
-    "frontmatter": {},
-    "regularPath": "/foundations/",
-    "relativePath": "foundations/README.md",
-    "key": "v-2b5cb0d0",
-    "path": "/foundations/",
-    "headers": [{
-      "level": 2,
-      "title": "📚 基础知识概述",
-      "slug": "📚-基础知识概述"
-    }, {
-      "level": 2,
-      "title": "📖 知识体系",
-      "slug": "📖-知识体系"
-    }, {
-      "level": 3,
+    "title": "Go语言核心",
+    "frontmatter": {
       "title": "Go语言核心",
-      "slug": "go语言核心"
-    }, {
-      "level": 3,
-      "title": "数据结构",
-      "slug": "数据结构"
-    }, {
-      "level": 3,
-      "title": "算法",
-      "slug": "算法"
-    }, {
-      "level": 2,
-      "title": "💡 学习建议",
-      "slug": "💡-学习建议"
-    }, {
-      "level": 2,
-      "title": "🚀 开始学习",
-      "slug": "🚀-开始学习"
-    }],
-    "lastUpdated": "2025/12/20 21:36",
-    "lastUpdatedTimestamp": 1766237771000
+      "date": "2025-12-22",
+      "author": "Yang",
+      "categories": ["基础知识", "Go语言核心"],
+      "tags": ["Go", "编程语言"],
+      "publish": true,
+      "sidebar": "auto"
+    },
+    "regularPath": "/foundations/go-core/",
+    "relativePath": "foundations/go-core/README.md",
+    "key": "v-40ed47ee",
+    "path": "/foundations/go-core/",
+    "lastUpdated": "2025/12/22 22:12",
+    "lastUpdatedTimestamp": 1766412728000
   }, {
     "title": "学习规划",
     "frontmatter": {},
@@ -6682,6 +6772,32 @@ const siteData = {
     "lastUpdated": "2025/12/20 21:36",
     "lastUpdatedTimestamp": 1766237771000
   }, {
+    "title": "学习笔记",
+    "frontmatter": {},
+    "regularPath": "/notes/",
+    "relativePath": "notes/README.md",
+    "key": "v-c15a0654",
+    "path": "/notes/",
+    "headers": [{
+      "level": 2,
+      "title": "📝 学习笔记概述",
+      "slug": "📝-学习笔记概述"
+    }, {
+      "level": 2,
+      "title": "📖 笔记分类",
+      "slug": "📖-笔记分类"
+    }, {
+      "level": 2,
+      "title": "💡 笔记管理建议",
+      "slug": "💡-笔记管理建议"
+    }, {
+      "level": 2,
+      "title": "🚀 开始阅读笔记",
+      "slug": "🚀-开始阅读笔记"
+    }],
+    "lastUpdated": "2025/12/20 21:36",
+    "lastUpdatedTimestamp": 1766237771000
+  }, {
     "title": "年度计划",
     "frontmatter": {},
     "regularPath": "/learning-plan/yearly/",
@@ -6728,28 +6844,90 @@ const siteData = {
     "lastUpdated": "2025/12/20 21:36",
     "lastUpdatedTimestamp": 1766237771000
   }, {
-    "title": "学习笔记",
+    "title": "项目实战",
     "frontmatter": {},
-    "regularPath": "/notes/",
-    "relativePath": "notes/README.md",
-    "key": "v-c15a0654",
-    "path": "/notes/",
+    "regularPath": "/projects/",
+    "relativePath": "projects/README.md",
+    "key": "v-66f776ac",
+    "path": "/projects/",
     "headers": [{
       "level": 2,
-      "title": "📝 学习笔记概述",
-      "slug": "📝-学习笔记概述"
+      "title": "📁 项目实战概述",
+      "slug": "📁-项目实战概述"
     }, {
       "level": 2,
-      "title": "📖 笔记分类",
-      "slug": "📖-笔记分类"
+      "title": "📖 项目体系",
+      "slug": "📖-项目体系"
+    }, {
+      "level": 3,
+      "title": "小型项目",
+      "slug": "小型项目"
+    }, {
+      "level": 3,
+      "title": "中型项目",
+      "slug": "中型项目"
+    }, {
+      "level": 3,
+      "title": "大型项目",
+      "slug": "大型项目"
     }, {
       "level": 2,
-      "title": "💡 笔记管理建议",
-      "slug": "💡-笔记管理建议"
+      "title": "💡 项目开发建议",
+      "slug": "💡-项目开发建议"
     }, {
       "level": 2,
-      "title": "🚀 开始阅读笔记",
-      "slug": "🚀-开始阅读笔记"
+      "title": "🚀 开始项目实战",
+      "slug": "🚀-开始项目实战"
+    }],
+    "lastUpdated": "2025/12/20 21:36",
+    "lastUpdatedTimestamp": 1766237771000
+  }, {
+    "title": "资源收藏",
+    "frontmatter": {},
+    "regularPath": "/resources/",
+    "relativePath": "resources/README.md",
+    "key": "v-32e4dc0e",
+    "path": "/resources/",
+    "headers": [{
+      "level": 2,
+      "title": "📚 资源收藏概述",
+      "slug": "📚-资源收藏概述"
+    }, {
+      "level": 2,
+      "title": "📖 资源分类",
+      "slug": "📖-资源分类"
+    }, {
+      "level": 3,
+      "title": "官方文档",
+      "slug": "官方文档"
+    }, {
+      "level": 3,
+      "title": "教程和书籍",
+      "slug": "教程和书籍"
+    }, {
+      "level": 3,
+      "title": "视频课程",
+      "slug": "视频课程"
+    }, {
+      "level": 3,
+      "title": "在线工具",
+      "slug": "在线工具"
+    }, {
+      "level": 3,
+      "title": "技术博客",
+      "slug": "技术博客"
+    }, {
+      "level": 3,
+      "title": "GitHub仓库",
+      "slug": "github仓库"
+    }, {
+      "level": 2,
+      "title": "💡 使用建议",
+      "slug": "💡-使用建议"
+    }, {
+      "level": 2,
+      "title": "🚀 开始探索",
+      "slug": "🚀-开始探索"
     }],
     "lastUpdated": "2025/12/20 21:36",
     "lastUpdatedTimestamp": 1766237771000
@@ -6864,94 +7042,6 @@ const siteData = {
     "lastUpdated": "2025/12/22 20:30",
     "lastUpdatedTimestamp": 1766406647000
   }, {
-    "title": "项目实战",
-    "frontmatter": {},
-    "regularPath": "/projects/",
-    "relativePath": "projects/README.md",
-    "key": "v-66f776ac",
-    "path": "/projects/",
-    "headers": [{
-      "level": 2,
-      "title": "📁 项目实战概述",
-      "slug": "📁-项目实战概述"
-    }, {
-      "level": 2,
-      "title": "📖 项目体系",
-      "slug": "📖-项目体系"
-    }, {
-      "level": 3,
-      "title": "小型项目",
-      "slug": "小型项目"
-    }, {
-      "level": 3,
-      "title": "中型项目",
-      "slug": "中型项目"
-    }, {
-      "level": 3,
-      "title": "大型项目",
-      "slug": "大型项目"
-    }, {
-      "level": 2,
-      "title": "💡 项目开发建议",
-      "slug": "💡-项目开发建议"
-    }, {
-      "level": 2,
-      "title": "🚀 开始项目实战",
-      "slug": "🚀-开始项目实战"
-    }],
-    "lastUpdated": "2025/12/20 21:36",
-    "lastUpdatedTimestamp": 1766237771000
-  }, {
-    "title": "资源收藏",
-    "frontmatter": {},
-    "regularPath": "/resources/",
-    "relativePath": "resources/README.md",
-    "key": "v-32e4dc0e",
-    "path": "/resources/",
-    "headers": [{
-      "level": 2,
-      "title": "📚 资源收藏概述",
-      "slug": "📚-资源收藏概述"
-    }, {
-      "level": 2,
-      "title": "📖 资源分类",
-      "slug": "📖-资源分类"
-    }, {
-      "level": 3,
-      "title": "官方文档",
-      "slug": "官方文档"
-    }, {
-      "level": 3,
-      "title": "教程和书籍",
-      "slug": "教程和书籍"
-    }, {
-      "level": 3,
-      "title": "视频课程",
-      "slug": "视频课程"
-    }, {
-      "level": 3,
-      "title": "在线工具",
-      "slug": "在线工具"
-    }, {
-      "level": 3,
-      "title": "技术博客",
-      "slug": "技术博客"
-    }, {
-      "level": 3,
-      "title": "GitHub仓库",
-      "slug": "github仓库"
-    }, {
-      "level": 2,
-      "title": "💡 使用建议",
-      "slug": "💡-使用建议"
-    }, {
-      "level": 2,
-      "title": "🚀 开始探索",
-      "slug": "🚀-开始探索"
-    }],
-    "lastUpdated": "2025/12/20 21:36",
-    "lastUpdatedTimestamp": 1766237771000
-  }, {
     "title": "学习时间线",
     "frontmatter": {
       "isTimeLine": true,
@@ -6968,11 +7058,15 @@ const siteData = {
       "slug": "学习时间线"
     }, {
       "level": 3,
+      "title": "2025/12/22",
+      "slug": "_2025-12-22"
+    }, {
+      "level": 3,
       "title": "2025/12/20",
       "slug": "_2025-12-20"
     }],
-    "lastUpdated": "2025/12/20 21:36",
-    "lastUpdatedTimestamp": 1766237771000
+    "lastUpdated": "2025/12/22 22:12",
+    "lastUpdatedTimestamp": 1766412728000
   }, {
     "frontmatter": {
       "layout": "Tags",
@@ -7103,6 +7197,14 @@ const siteData = {
     "path": "/tag/字符编码/"
   }, {
     "frontmatter": {
+      "layout": "Tag",
+      "title": "编程语言 Tags"
+    },
+    "regularPath": "/tag/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/",
+    "key": "v-b4ef82aa",
+    "path": "/tag/编程语言/"
+  }, {
+    "frontmatter": {
       "layout": "Category",
       "title": "Go语言核心 Categories"
     },
@@ -7167,6 +7269,14 @@ const siteData = {
     "path": "/categories/深入 Go 语言/"
   }, {
     "frontmatter": {
+      "layout": "Category",
+      "title": "基础知识 Categories"
+    },
+    "regularPath": "/categories/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/",
+    "key": "v-b41e8034",
+    "path": "/categories/基础知识/"
+  }, {
+    "frontmatter": {
       "layout": "Layout",
       "title": "Page 2 - Go | Tags"
     },
@@ -7201,8 +7311,11 @@ const siteData = {
       "icon": "reco-home"
     }, {
       "text": "基础知识",
-      "link": "/foundations/",
-      "icon": "reco-other"
+      "icon": "reco-other",
+      "items": [{
+        "text": "Go语言核心",
+        "link": "/foundations/go-core/"
+      }]
     }, {
       "text": "后端技术",
       "link": "/backend-tech/",
@@ -7238,10 +7351,15 @@ const siteData = {
       }]
     },
     "sidebar": {
+      "/foundations/go-core/": [{
+        "title": "Go语言核心",
+        "collapsable": false,
+        "children": ["", "001-Go语言原生支持Unicode编码"]
+      }],
       "/foundations/": [{
         "title": "基础知识",
         "collapsable": false,
-        "children": [""]
+        "children": ["", "go-core/"]
       }],
       "/backend-tech/": [{
         "title": "后端技术",
@@ -7575,7 +7693,7 @@ __webpack_require__.r(__webpack_exports__);
 
 window.__VUEPRESS__ = {
   version: "1.9.10",
-  hash: "735d139"
+  hash: "3354cb0"
 };
 Object(_app__WEBPACK_IMPORTED_MODULE_0__["createApp"])(false /* isServer */).then(({
   app,
@@ -44180,4 +44298,4 @@ module.exports = __webpack_require__(/*! /home/runner/work/notes/notes/node_modu
 /***/ })
 
 /******/ });
-//# sourceMappingURL=app.804626c5.js.map
+//# sourceMappingURL=app.6a371685.js.map
